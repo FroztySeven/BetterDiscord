@@ -12,7 +12,6 @@ Here is a collection of my own creations inspired by the new default black toolt
 /* Black pulsating tooltips */
 .tooltip {
     background-color: #000000 !important;
-    box-shadow: 0 0px 0px 0px, 0 0 0 2px var(--accent-color);
     padding: 9px 10px;
     border-radius: 10px;
     font-size: 14px;
