@@ -1,4 +1,4 @@
-# Tooltips Document
+# Tooltips Document - v1.0 FroztySeven
 Here is a collection of my own creations inspired by the new default black tooltips in Discord, with Beard Material theme animations
 **__NOTICE: CSS Codes on this document should work with any themes ✓__**
 
