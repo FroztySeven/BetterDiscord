@@ -32,7 +32,7 @@ Here is a collection of my own creations to be used together with the **Horizont
     height:100%;
 }
 ```
-###### Animation Keyframe Codes (You only need to have this code once, for the animations to work)
+###### Animation Keyframe Code (You only need to have this code once, for the animations to work)
 ```css
 /* Animation keyframes */
 @keyframes slide_up {
