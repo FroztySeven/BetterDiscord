@@ -34,23 +34,25 @@ Here is a collection of my own creations to be used together with the **Horizont
 ```
 ###### Animation Keyframe Codes (You only need to have this code once, for the animations to work)
 ```css
-/* Black pulsating horizontal serverlist tooltips */
-  .tooltip.tooltip-right.tooltip-black {
-    background-color: #000000 !important;
-    transform: translate(-119px, -72px) !important;
-    width: 150px;
-    padding: 13px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
-    z-index: 1000000000000000000;
-    pointer-events: none;
-    animation: opacity 300ms linear, slide_up 200ms cubic-bezier(.1,1,0,1), text-pulse 2s ease infinite;
-  }
-/* Black pulsating horizontal serverlist tooltip for Direct Messages */
-  .guilds-wrapper .guilds .guild .guild-inner a {
-    width:180%;
-    height:100%;
+/* Animation keyframes */
+@keyframes slide_up {
+    from {
+        transform: translate(0, 200%);
+        }
+    }
+@keyframes text-pulse {
+    20% {
+        color:rgba(255,255,255,1);
+    }
+    40% {
+        color:rgba(255,255,255,.6);
+    }
+    70% {
+        color:rgba(255,255,255,1);
+    }
+    90% {
+        color:rgba(255,255,255,.6);
+    }
 }
 ```
 ## Accent Color Box-Shadow (Mini-enhancement)
