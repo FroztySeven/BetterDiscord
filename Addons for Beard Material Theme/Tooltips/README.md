@@ -1,9 +1,9 @@
-# Tooltips Document - v1.0 FroztySeven
+# Tooltips Document
 Here is a collection of my own creations inspired by the new default black tooltips in Discord, with Beard Material theme animations
 **__NOTICE: CSS Codes on this document should work with any themes ✓__**
 
 
-## Black Pulsating Tooltips
+## Black Pulsating Tooltips - v1.0
 
 ### Preview
 ![](https://vgy.me/666ivb.gif) ![](https://vgy.me/htnABi.gif)
@@ -41,7 +41,7 @@ Here is a collection of my own creations inspired by the new default black toolt
     }
 }
 ```
-## Accent Color Box-Shadow (Mini-addon)
+## Accent Color Box-Shadow (Mini-enhancement)
 ### Preview
 ![](https://vgy.me/1IrOKp.gif)
 ###### Add this CSS Code inside section ".tooltip {"
