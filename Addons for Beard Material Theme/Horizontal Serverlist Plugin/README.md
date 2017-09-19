@@ -8,7 +8,7 @@ Here is a collection of my own creations to be used together with the **Horizont
 *If you don't like the pulse effect on the tooltip, remove everything containing "text-pulse"*
 
 ### Preview
-![](https://vgy.me/6vHGvp.gif) ![](https://vgy.me/htnABi.gif)
+![](https://vgy.me/6vHGvp.gif)
 ###### Full CSS Code
 ```css
 /* Black pulsating horizontal serverlist tooltips */
@@ -52,6 +52,6 @@ Here is a collection of my own creations to be used together with the **Horizont
 ## Accent Color Box-Shadow (Mini-enhancement)
 ### Preview
 ![](https://vgy.me/uwqtDz.gif)
-###### Add this inside section ".tooltip {"
+###### Add this inside section ".tooltip.tooltip-right.tooltip-black {"
 ```css
     box-shadow: 0 0px 0px 0px, 0 0 0 2px var(--accent-color)!important;
