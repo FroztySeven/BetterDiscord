@@ -4,6 +4,7 @@ Here is a collection of my own creations inspired by the new default black toolt
 
 
 ## Black Pulsating Tooltips - v1.0
+*If you don't like the pulse effect on the tooltip, remove everything saying "text-pulse"!
 
 ### Preview
 ![](https://vgy.me/666ivb.gif) ![](https://vgy.me/htnABi.gif)
