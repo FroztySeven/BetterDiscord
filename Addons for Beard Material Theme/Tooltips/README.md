@@ -44,6 +44,6 @@ Here is a collection of my own creations inspired by the new default black toolt
 ## Accent Color Box-Shadow (Mini-addon)
 ### Preview
 ![](https://vgy.me/1IrOKp.gif)
-###### Add this inside section ".tooltip {"
+###### Add this CSS Code inside section ".tooltip {"
 ```css
     box-shadow: 0 0px 0px 0px, 0 0 0 2px var(--accent-color)!important;
