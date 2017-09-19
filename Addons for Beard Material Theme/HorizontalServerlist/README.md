@@ -1,5 +1,6 @@
-Horizontal Serverlist Plugin Addons
----------------------------------------
+# Horizontal Serverlist Plugin Addons
+
+
 
 ## Black Pulsating Tooltips
 
