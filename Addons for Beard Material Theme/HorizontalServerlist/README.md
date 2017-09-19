@@ -1,12 +1,13 @@
 # Horizontal Serverlist Plugin Addons
-
+Here is a collection of my own creations to be used together with the Horizontal Serverlist Plugin
+Check out [square's Github page](https://github.com/Inve1951).
 
 
 ## Black Pulsating Tooltips
 
 ### Preview
 ![](https://vgy.me/666ivb.gif) ![](https://vgy.me/htnABi.gif)
-### CSS Code
+###### CSS Code
 ```css
 /* Black pulsating tooltips */
 .tooltip {
