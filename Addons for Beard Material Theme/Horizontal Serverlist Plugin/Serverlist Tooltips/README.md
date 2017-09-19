@@ -3,7 +3,7 @@ Here is a collection of my own creations to be used together with the **Horizont
 
 **__⚠ NOTICE: CSS Codes on this document will not work properly without the Horizontal Serverlist Plugin!__** [**Download Plugin** 🡳](https://betterdiscord.net/ghdl?id=841)
 
-**__⚠ NOTICE: CSS Codes on this document should work with any themes!__**
+**__⚠ WARNING: CSS Codes on this document will break your serverlist if you don't use the Beard Material theme!__**
 
 
 ## Black Pulsating Serverlist Tooltips - v1.0
