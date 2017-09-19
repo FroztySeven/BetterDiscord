@@ -1,10 +1,10 @@
 # Tooltips Document
 Here is a collection of my own creations inspired by the new default black tooltips in Discord, with Beard Material theme animations
-**__NOTICE: CSS Codes on this document should work with any themes ✓__**
+**__⚠ NOTICE: CSS Codes on this document should work with any themes!__**
 
 
 ## Black Pulsating Tooltips - v1.0
-*If you don't like the pulse effect on the tooltip, remove everything saying "text-pulse"!*
+*If you don't like the pulse effect on the tooltip, remove everything containing "text-pulse"*
 
 ### Preview
 ![](https://vgy.me/666ivb.gif) ![](https://vgy.me/htnABi.gif)
@@ -26,6 +26,15 @@ Here is a collection of my own creations inspired by the new default black toolt
         transform: translate(0, 200%);
         }
     }
+```
+###### Animation Keyframe Code (You only need to have this code once, for the animations to work)
+```css
+/* Animation keyframes */
+@keyframes slide_up {
+    from {
+        transform: translate(0, 200%);
+        }
+    }
 @keyframes text-pulse {
     20% {
         color:rgba(255,255,255,1);
@@ -41,6 +50,7 @@ Here is a collection of my own creations inspired by the new default black toolt
     }
 }
 ```
+
 ## Accent Color Box-Shadow (Mini-enhancement)
 ### Preview
 ![](https://vgy.me/1IrOKp.gif)
