@@ -1,9 +1,9 @@
 # Horizontal Serverlist Plugin Addons
 Here is a collection of my own creations to be used together with the **Horizontal Serverlist Plugin** *made by [square](https://github.com/Inve1951)*
 
-**__⚠ NOTICE: CSS Codes on this document will not work properly without the Horizontal Serverlist Plugin__** [**Download Plugin** 🡳](https://betterdiscord.net/ghdl?id=841)
+**__⚠ NOTICE: CSS Codes on this document will not work properly without the Horizontal Serverlist Plugin!__** [**Download Plugin** 🡳](https://betterdiscord.net/ghdl?id=841)
 
-**__⚠ NOTICE: CSS Codes on this document should work with any themes__**
+**__⚠ NOTICE: CSS Codes on this document should work with any themes!__**
 
 
 ## Black Pulsating Serverlist Tooltips - v1.0
