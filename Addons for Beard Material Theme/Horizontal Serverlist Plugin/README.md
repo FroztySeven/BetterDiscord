@@ -10,7 +10,7 @@ Here is a collection of my own creations to be used together with the **Horizont
 *If you don't like the pulse effect on the tooltip, remove everything containing "text-pulse"*
 
 ### Preview
-![](https://vgy.me/6vHGvp.gif)
+![](https://vgy.me/rc4Z8h.gif)
 ###### Full CSS Code
 ```css
 /* Black pulsating horizontal serverlist tooltips */
