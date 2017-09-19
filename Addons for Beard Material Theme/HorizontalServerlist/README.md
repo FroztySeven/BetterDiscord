@@ -1,7 +1,6 @@
 # Horizontal Serverlist Plugin Addons
-Here is a collection of my own creations to be used together with the **Horizontal Serverlist Plugin** *made by [square]*(https://github.com/Inve1951).
-**
-**
+Here is a collection of my own creations to be used together with the **Horizontal Serverlist Plugin** *made by [square](https://github.com/Inve1951).*
+
 
 ## Black Pulsating Tooltips
 
