@@ -1,12 +1,13 @@
-# Horizontal Serverlist Plugin Addons
-Here is a collection of my own creations to be used together with the **Horizontal Serverlist Plugin** *made by [square](https://github.com/Inve1951)*
+# Tooltips Document
+Here is a collection of my own creations inspired by the new default black tooltips in Discord, with Beard Material theme animations
+**__NOTICE: CSS Codes on this document should work with any themes ✓__**
 
 
 ## Black Pulsating Tooltips
 
 ### Preview
 ![](https://vgy.me/666ivb.gif) ![](https://vgy.me/htnABi.gif)
-###### CSS Code
+###### Full CSS Code
 ```css
 /* Black pulsating tooltips */
 .tooltip {
@@ -40,3 +41,9 @@ Here is a collection of my own creations to be used together with the **Horizont
     }
 }
 ```
+## Accent Color Box-Shadow (Mini-addon)
+### Preview
+![](https://vgy.me/1IrOKp.gif)
+###### Add this inside section ".tooltip {"
+```css
+    box-shadow: 0 0px 0px 0px, 0 0 0 2px var(--accent-color)!important;
