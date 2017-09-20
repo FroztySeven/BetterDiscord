@@ -28,8 +28,7 @@ Here is a collection of my own creations to be used together with the **Horizont
   }
 /* Black pulsating horizontal serverlist tooltip for Direct Messages */
   .guilds-wrapper .guilds .guild .guild-inner a {
-    width:180%;
-    height:100%;
+    padding: 0px 25px;
 }
 ```
 ###### Animation Keyframe Code (You only need to have this code once, for the animations to work)
