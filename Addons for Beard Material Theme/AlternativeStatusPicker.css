@@ -2,7 +2,7 @@
 .status-picker.popout-menu {
     background: var(--lvl3);
     border-radius: 0!important;
-    width: 242.5px!important;
+    width: 240px!important;
     bottom: 6px!important;
     top: initial!important;
     height: 70px!important;
@@ -12,7 +12,7 @@
     animation: slide-up 200ms cubic-bezier(0,0,0,1), opacity 200ms ease, visibility 1ms ease;
     overflow:visible;
     pointer-events: auto;
-    left: -13px!important;;
+    left: -10px!important;;
     z-index: 1000000;
     box-shadow: none!important;
 }
@@ -30,7 +30,7 @@
     border-radius: 0;
     padding: 0!important;
     left: 0;
-    margin-left: 13px;
+    margin-left: 12px;
     bottom: 0;
     margin-top: 17px;
     transform: none;
