@@ -1,4 +1,4 @@
-/*Beard Status Picker 2*/
+/* Alternative status picker for BMT - by FroztySeven*
 .status-picker.popout-menu {
     background: var(--lvl3);
     border-radius: 0!important;
