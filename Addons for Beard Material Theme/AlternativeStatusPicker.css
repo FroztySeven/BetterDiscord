@@ -19,6 +19,7 @@
 .status-picker .popout-menu-item .helper {
     display: none;
 }
+
 .status-picker .popout-menu-item {
     transition: all 100ms ease;
     color: transparent;
