@@ -21,32 +21,3 @@ If you find any bugs with one of my addons, please contact me so i can address t
 ```css
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css);
 ```
-```css
-body {
-              background-color:#999999;
-              font-family: 'Oswald', sans-serif;
-      }
-p
-{
-  color:#000000;
-  font-size:20px;
-}
-
-.textBox
-{
-  height:30px;
-  width:300px;
-}
-
-button
-{
-  height:30px;
-  width:150px;
-  border-radius:8px;
-  padding:10px;
-  font-size:20px;
-  font-family: 'Oswald', sans-serif;
-  height:52px;
-  cursor:pointer;
-  background-color:wheat;
-}```
