@@ -1,6 +1,6 @@
 
 # Addons for Beard Material Theme
-Here is a collection of my own creations to be used together with the **Horizontal Serverlist Plugin** *made by [square](https://github.com/Inve1951)*
+Here is a collection of my own creations to be used together with the popular beard material theme *made by [Lilian Tedone](https://github.com/BeardDesign1)*
 
 
 **__⚠ WARNING: CSS Codes on this document will break your serverlist if you don't use the Beard Material theme!__**
