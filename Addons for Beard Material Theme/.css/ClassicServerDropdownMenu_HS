@@ -1,4 +1,4 @@
-/* Classic Server Dropdown Menu - by FroztySeven */
+/* Classic Server Dropdown Menu with Horizontal Serverlist Compability - by FroztySeven */
 .popout-bottom .popout-menu {
   background: #141414;
   position: absolute;
