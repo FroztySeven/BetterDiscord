@@ -4,8 +4,8 @@ Here is a collection of my own creations to be used together with the popular Be
 
 If you find any bugs with one of my addons, please contact me so i can address these issues as fast as possible!
 
->NOTICE: 
-These addons should only be used together with the theme itself. They might break with other themes
+> NOTICE: 
+> These addons should only be used together with the theme itself. They might break with other themes
     
     
     
