@@ -4,6 +4,7 @@ Here is a collection of my own creations to be used together with the popular Be
 
 
 **__！NOTICE: These addons should only be used together with the theme itself. 
+
 Using these on other themes might break your Discord client__**
 
 
