@@ -1,6 +1,7 @@
 
 # Addons for Beard Material Theme
 Here is a collection of my own creations to be used together with the popular Beard Material Theme *made by [Lilian Tedone](https://github.com/BeardDesign1)*
+
 If you find any bugs with one of my addons, please contact me so i can address these issues as fast as possible!
 
 
