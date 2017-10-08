@@ -9,8 +9,10 @@ Here is a collection of my own creations to be used together with the **Horizont
 ## New Server Dropdown Menu
 
 ### Preview
-![](https://vgy.me/rc4Z8h.gif)
-###### Full CSS Code
+![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/Qy8ATZ.gif) 
+
+
+###### CSS Code
 ```css
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css;)
 ```
