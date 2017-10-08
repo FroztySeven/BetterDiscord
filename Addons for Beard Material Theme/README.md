@@ -1,9 +1,9 @@
 
 # Addons for Beard Material Theme
-Here is a collection of my own creations to be used together with the popular beard material theme *made by [Lilian Tedone](https://github.com/BeardDesign1)*
+Here is a collection of my own creations to be used together with the popular Beard Material Theme *made by [Lilian Tedone](https://github.com/BeardDesign1)*
 
 
-**__⚠ WARNING: CSS Codes on this document will break your serverlist if you don't use the Beard Material theme!__**
+**__！WARNING: CSS Codes on this document will break your serverlist if you don't use the Beard Material theme!__**
 
 
 ## Classic Server Dropdown Menu (with automatic updates)
