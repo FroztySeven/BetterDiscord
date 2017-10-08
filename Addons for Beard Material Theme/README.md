@@ -3,9 +3,8 @@
 Here is a collection of my own creations to be used together with the popular Beard Material Theme *made by [Lilian Tedone](https://github.com/BeardDesign1)*
 
 
-**__！NOTICE: These addons should only be used together with the theme itself.__**
-
-**__Using these on other themes might break your Discord client__**
+**__！NOTICE: These addons should only be used together with the theme itself
+Using other themes might break your Discord client__**
 
 
 ## Classic Server Dropdown Menu (with automatic updates)
