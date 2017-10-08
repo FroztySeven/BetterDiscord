@@ -5,8 +5,9 @@ Here is a collection of my own creations to be used together with the popular Be
 
 **__！NOTICE: These addons should only be used together with the theme itself.
 Using other themes might break your Discord client__**
-
-
+    
+    
+    
 ## Classic Server Dropdown Menu (with automatic updates)
 
 ### Preview
