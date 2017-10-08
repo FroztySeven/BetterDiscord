@@ -12,5 +12,5 @@ Here is a collection of my own creations to be used together with the **Horizont
 ![](https://vgy.me/rc4Z8h.gif)
 ###### Full CSS Code
 ```css
-@import(url=https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css)
+@import(url=https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css;)
 ```
