@@ -19,6 +19,5 @@ If you find any bugs with one of my addons, please contact me so i can address t
 
 ###### CSS Code
 ```css
-@import
-url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css);
+@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css);
 ```
