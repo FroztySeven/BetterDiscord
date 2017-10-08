@@ -6,7 +6,7 @@ Here is a collection of my own creations to be used together with the **Horizont
 **__⚠ WARNING: CSS Codes on this document will break your serverlist if you don't use the Beard Material theme!__**
 
 
-## New Server Dropdown Menu
+## Classic Server Dropdown Menu (with automatic updates)
 
 ### Preview
 ###### Default design             New design
