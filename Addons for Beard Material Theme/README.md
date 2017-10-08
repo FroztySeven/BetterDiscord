@@ -9,7 +9,7 @@ If you find any bugs with one of my addons, please contact me so i can address t
     
     
     
-## Classic Server Dropdown Menu (with automatic updates)
+## New Classic Server Dropdown Menu (with automatic updates)
 
 ### Preview
 ###### Default design             New design
