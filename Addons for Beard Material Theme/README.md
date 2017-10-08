@@ -9,7 +9,7 @@ Here is a collection of my own creations to be used together with the **Horizont
 ## New Server Dropdown Menu
 
 ### Preview
-###### Default design            New design
+###### Default design               New design
 
 ![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif)
 
