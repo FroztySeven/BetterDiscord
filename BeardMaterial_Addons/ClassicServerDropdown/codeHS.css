@@ -264,6 +264,10 @@
     opacity: 1;
     transition: 300ms cubic-bezier(.4,0,0,1);
   }
+  .popout-bottom .popout-menu .popout-menu-item.leave:hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
   
   /* Menu icon to "Invite People" in guild dropdown */
   .popout-menu-item.invite .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjNzI4OURBIiBkPSJNMTAuNSw3IEMxMi4xODM4MDk1LDcgMTQsNS4yODY2NjY2NyAxNCwzLjU0NTQ1NDU1IEMxNCwxLjgwNDI0MjQyIDEyLjE4MzgwOTUsMCAxMC41LDAgQzguODE2MTkwNDgsMCA3LDEuODA0MjQyNDIgNywzLjU0NTQ1NDU1IEM3LDUuMjg2NjY2NjcgOC44MTYxOTA0OCw3IDEwLjUsNyBaIE0zLDYgTDMsNCBMMiw0IEwyLDYgTDAsNiBMMCw3IEwyLDcgTDIsOSBMMyw5IEwzLDcgTDUsNyBMNSw2IEwzLDYgWiBNMTAuNSw4IEM4LjQ2NTcxNDI5LDggNSw5LjMyODQ4NDg1IDUsMTEuNDI0MjQyNCBMNSwxMyBMMTYsMTMgTDE2LDExLjQyNDI0MjQgQzE2LDkuMzI4NDg0ODUgMTIuNTM0Mjg1Nyw4IDEwLjUsOCBaIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxNiAyKSIvPgo8L3N2Zz4K");'] {
