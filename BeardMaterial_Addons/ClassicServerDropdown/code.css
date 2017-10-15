@@ -1,230 +1,317 @@
-/* Classic Server Dropdown Menu - by FroztySeven */
 .popout-bottom .popout-menu {
-  background: #141414;
-  position: absolute;
-  left: 0px!important;
-  top: 0px!important;
-  animation: slide-down 200ms cubic-bezier(0,0,0,1), opacity 200ms ease, visibility 1ms ease;
-  -ms-flex-direction: row!important;
-  flex-direction: row!important;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  display: -ms-flexbox;
-  display: inherit;
-  width: 240px;
-  border-radius: 0;
-  overflow: visible;
-  box-shadow:0 5px 15px rgba(0,0,0,.5);
-}
-.popout-bottom[style*="overflow: hidden; visibility: visible;"] {
-  box-shadow: none!important;
-  top: 56px!important;
-  width: 300px!important;
-  height: 1000px!important;
-  margin: 0px;
-  -ms-transform: none!important;
-  transform: none!important;
-  pointer-events: none;
-  position: absolute;
-}
-.popout-bottom .popout-menu .popout-menu-item-label {
-  position: absolute;
-  top: 45px;
-  background-color: var(--lvl1) !important;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
-  padding: 5px 10px;
-  border-radius: 3px;
-  font-size: 13px;
-  pointer-events: none;
-  opacity: 0;
-  color: var(--white10);
-  transition: opacity 100ms ease;
-}
-
-.popout-bottom .popout-menu .popout-menu-item {
-  width: 240px;
-  height: 40px;
-  padding: 0;
-  transition: 50ms ease;
-}
-.popout-bottom .popout-menu .popout-menu-item:hover {
-  background-color: #1A1A1A;
-}
-.popout-bottom .popout-menu .popout-menu-item:active {
-  background-color: #0A0A0A;
-}
-.popout-bottom .popout-menu .popout-menu-icon {
-  width: 15%;
-  height: 100%;
-  margin: 10px;
-  background-position: 50%;
-  background-size: 50%;
-  background-repeat: no-repeat;
-}
-.popout-bottom .popout-menu .popout-menu-item-label: {
-  color:rgba(225, 225, 225, 0.8)!important;
-  width:calc(100% + 40px);
-  top:48px;
-  right:0;
-  left:-25px;
-  margin:auto;
-  padding:5px;
-  border-radius:5px;
-  text-align:center;
-  text-overflow:inherit;
-  white-space:inherit;
-  visibility:visible;
-}
-.popout-menu .popout-menu-separator {
+    background: #141414;
+    position: absolute;
+    left: 0px!important;
+    top: 0px!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    display: -ms-flexbox;
     display: inherit;
-    border-color: #1E1E1E;
-}
-
-.popout-bottom .popout-menu .popout-menu-item.invite .popout-menu-item-label {
-  background-color:transparent!important;
-  color: #7F9EEF;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 51px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(1) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 51px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(2) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 51px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(3) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(4) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(5) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(6) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(7) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(8) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(11) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-menu-item:nth-of-type(11) .popout-menu-icon{
-      opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(10) .popout-menu-item-label {
-  background-color:transparent!important;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item:nth-of-type(12) .popout-menu-item-label {
-  background-color:transparent!important;
-  color: #E24343;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-.popout-bottom .popout-menu .popout-menu-item.leave .popout-menu-item-label {
-  background-color:transparent!important;
-  color: #E24343;
-  box-shadow: none!important;
-  font-size: 14px;
-  top: auto;
-  left: 50px;
-  opacity: 1;
-}
-/* Menu icon to "Invite People" in guild dropdown */
-.popout-menu-item.invite .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjNzI4OURBIiBkPSJNMTAuNSw3IEMxMi4xODM4MDk1LDcgMTQsNS4yODY2NjY2NyAxNCwzLjU0NTQ1NDU1IEMxNCwxLjgwNDI0MjQyIDEyLjE4MzgwOTUsMCAxMC41LDAgQzguODE2MTkwNDgsMCA3LDEuODA0MjQyNDIgNywzLjU0NTQ1NDU1IEM3LDUuMjg2NjY2NjcgOC44MTYxOTA0OCw3IDEwLjUsNyBaIE0zLDYgTDMsNCBMMiw0IEwyLDYgTDAsNiBMMCw3IEwyLDcgTDIsOSBMMyw5IEwzLDcgTDUsNyBMNSw2IEwzLDYgWiBNMTAuNSw4IEM4LjQ2NTcxNDI5LDggNSw5LjMyODQ4NDg1IDUsMTEuNDI0MjQyNCBMNSwxMyBMMTYsMTMgTDE2LDExLjQyNDI0MjQgQzE2LDkuMzI4NDg0ODUgMTIuNTM0Mjg1Nyw4IDEwLjUsOCBaIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxNiAyKSIvPgo8L3N2Zz4K");'] {
-    background-image: url(https://vgy.me/cmgsoP.png)!important;
-    opacity: 1!important;
-}
-/* Menu icon to "Server Settings" in guild dropdown */
-.popout-menu-icon[style='background-image: url("/assets/9a93097ab591379729c68f15a17b26af.svg");'] {
-    background-image: url(https://vgy.me/ZWZQEy.png)!important;
-    opacity: .6!important;
-}
-/* Menu icon to "Create Channel" in guild dropdown */
-.popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTE1IDEwaC01djVIOHYtNUgzVjhoNVYzaDJ2NWg1Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDE4djE4SDAiLz4KICA8L2c+Cjwvc3ZnPgo=");'] {
-    background-image: url(https://vgy.me/s2NpRS.png)!important;
-    opacity: .6!important;
-}
-/* Menu icon to "Create Category" in guild dropdown */
-.popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTMgMmg0djRIM1Yyem04IDVoNXY0aC01Vjd6bTAgNWg1djRoLTV2LTR6bS0xLTJINnYzaDR2Mkg0VjdoMnYxaDR2MnoiLz4KICA8L2c+Cjwvc3ZnPgo=");'] {
-    background-image: url(https://vgy.me/cNRXKF.png)!important;
-    opacity: .6!important;
-}
-/* Menu icon to "Hide Muted Channels" in guild dropdown */
-.popout-menu-icon[style='background-image: url("/assets/858df73648ac3877a22156da2e69a5fd.svg");'] {
-    background-image: url(https://vgy.me/izXdJp.png)!important;
-    opacity: .6!important;
-}
-/* Menu icon to "Change Nickname" in guild dropdown */
-.popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPHBhdGggZmlsbD0iIzczN0Y4RCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAxNHYtMi41bDcuODgtNy44NWMuMTktLjIuNTEtLjIuNzEgMGwxLjc2IDEuNzZjLjIuMi4yLjUxIDAgLjcxTDUuNDcgMTRIM3ptMTIgMEg3LjVsMi0ySDE1djJ6Ii8+Cjwvc3ZnPg==");'] {
-    background-image: url(https://vgy.me/cR5Txy.png)!important;
-    opacity: .6!important;
-}
-/* Menu icon to "Show Muted Channels" in guild dropdown */
-.popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgPGRlZnM+CiAgICA8cGF0aCBpZD0iYSIgZD0iTTEyLDQuNSBDNyw0LjUgMi43Myw3LjYxIDEsMTIgQzIuNzMsMTYuMzkgNywxOS41IDEyLDE5LjUgQzE3LDE5LjUgMjEuMjcsMTYuMzkgMjMsMTIgQzIxLjI3LDcuNjEgMTcsNC41IDEyLDQuNSBMMTIsNC41IFogTTEyLDE3IEM5LjI0LDE3IDcsMTQuNzYgNywxMiBDNyw5LjI0IDkuMjQsNyAxMiw3IEMxNC43Niw3IDE3LDkuMjQgMTcsMTIgQzE3LDE0Ljc2IDE0Ljc2LDE3IDEyLDE3IEwxMiwxNyBaIE0xMiw5IEMxMC4zNCw5IDksMTAuMzQgOSwxMiBDOSwxMy42NiAxMC4zNCwxNSAxMiwxNSBDMTMuNjYsMTUgMTUsMTMuNjYgMTUsMTIgQzE1LDEwLjM0IDEzLjY2LDkgMTIsOSBMMTIsOSBaIi8+CiAgPC9kZWZzPgogIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICA8cG9seWdvbiBwb2ludHM9IjAgMCAyNCAwIDI0IDI0IDAgMjQiLz4KICAgIDx1c2UgZmlsbD0iIzRGNTQ1QyIgeGxpbms6aHJlZj0iI2EiLz4KICA8L2c+Cjwvc3ZnPgo=");'] {
-    background-image: url(https://vgy.me/9QONqp.png)!important;
-    opacity: .6!important;
-}
+    width: 240px;
+    border-radius: 0;
+    overflow: visible;
+    animation: popout-menu-slide-down 300ms cubic-bezier(0, .0, 0, 1);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+  @keyframes popout-menu-slide-down {
+      0%{
+          transform:translate(0,-1000px);
+      }
+  }
+  body:active .popout-bottom:not(:active) .popout-menu:not(:active) {
+    animation: popout-bottom-slide-up 300ms cubic-bezier(0, .0, 0, 1);
+    transform: default;
+    opacity: 0;
+    transition: all 200ms ease;
+      }
+      @keyframes popout-menu-slide-up {
+          0%{
+              transform:translate(0,-1000px);
+          }
+      }
+  .popout-bottom[style*="overflow: hidden; visibility: visible;"] {
+    box-shadow: none!important;
+    left: 0px!important;
+    top: 56px!important;
+    width: 300px!important;
+    height: 1000px!important;
+    margin: 0px;
+    -ms-transform: none!important;
+    transform: none!important;
+    pointer-events: none;
+    position: absolute;
+  }
+  .popout-bottom .popout-menu .popout-menu-item-label {
+    position: absolute;
+    top: 45px;
+    background-color: var(--lvl1) !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    pointer-events: none;
+    opacity: 0;
+    color: var(--white10);
+    transition: opacity 100ms ease;
+  }
+  .popout-bottom .popout-menu .popout-menu-item {
+    width: 240px;
+    height: 40px;
+    padding: 0;
+    transition: 50ms ease;
+  }
+  .popout-bottom .popout-menu .popout-menu-item:hover {
+    background-color: #1A1A1A;
+  }
+  .popout-bottom .popout-menu .popout-menu-item:active {
+    background-color: #0A0A0A;
+  }
+  .popout-bottom .popout-menu .popout-menu-icon {
+    width: 15%;
+    height: 100%;
+    margin: 10px;
+    background-position: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  .popout-bottom .popout-menu .popout-menu-item-label: {
+    color:rgba(225, 225, 225, 0.8)!important;
+    width:calc(100% + 40px);
+    top:48px;
+    right:0;
+    left:-25px;
+    margin:auto;
+    padding:5px;
+    border-radius:5px;
+    text-align:center;
+    text-overflow:inherit;
+    white-space:inherit;
+    visibility:visible;
+  }
+  .popout-menu .popout-menu-separator {
+      display: inherit;
+      border-color: #1E1E1E;
+  }
+  .popout-bottom .popout-menu .popout-menu-item.invite .popout-menu-item-label {
+    background-color:transparent!important;
+    color: #7F9EEF;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 51px;
+    opacity: 1;
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(1) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 51px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(1):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(2) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 51px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(2):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(3) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(3):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(4) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(4):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(5) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(5):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(6) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(6):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(7) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(7):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(8) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(8):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(11) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(11):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-menu-item:nth-of-type(11) .popout-menu-icon{
+        opacity: 1;
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(10) .popout-menu-item-label {
+    background-color:transparent!important;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(10):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(12) .popout-menu-item-label {
+    background-color:transparent!important;
+    color: #E24343;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+  }
+  .popout-bottom .popout-menu .popout-menu-item:nth-of-type(12):hover .popout-menu-item-label {
+    left: 55px;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  .popout-bottom .popout-menu .popout-menu-item.leave .popout-menu-item-label {
+    background-color:transparent!important;
+    color: #E24343;
+    box-shadow: none!important;
+    font-size: 14px;
+    top: auto;
+    left: 50px;
+    opacity: 1;
+    transition: 300ms cubic-bezier(.4,0,0,1);
+  }
+  
+  /* Menu icon to "Invite People" in guild dropdown */
+  .popout-menu-item.invite .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjNzI4OURBIiBkPSJNMTAuNSw3IEMxMi4xODM4MDk1LDcgMTQsNS4yODY2NjY2NyAxNCwzLjU0NTQ1NDU1IEMxNCwxLjgwNDI0MjQyIDEyLjE4MzgwOTUsMCAxMC41LDAgQzguODE2MTkwNDgsMCA3LDEuODA0MjQyNDIgNywzLjU0NTQ1NDU1IEM3LDUuMjg2NjY2NjcgOC44MTYxOTA0OCw3IDEwLjUsNyBaIE0zLDYgTDMsNCBMMiw0IEwyLDYgTDAsNiBMMCw3IEwyLDcgTDIsOSBMMyw5IEwzLDcgTDUsNyBMNSw2IEwzLDYgWiBNMTAuNSw4IEM4LjQ2NTcxNDI5LDggNSw5LjMyODQ4NDg1IDUsMTEuNDI0MjQyNCBMNSwxMyBMMTYsMTMgTDE2LDExLjQyNDI0MjQgQzE2LDkuMzI4NDg0ODUgMTIuNTM0Mjg1Nyw4IDEwLjUsOCBaIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxNiAyKSIvPgo8L3N2Zz4K");'] {
+      background-image: url(https://vgy.me/cmgsoP.png)!important;
+      opacity: 1!important;
+  }
+  .popout-bottom .popout-menu .popout-menu-item.invite:active {
+    background-color: #1D2433;
+  }
+  /* Menu icon to "Server Settings" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("/assets/9a93097ab591379729c68f15a17b26af.svg");'] {
+      background-image: url(https://vgy.me/ZWZQEy.png)!important;
+      opacity: .6!important;
+  }
+  /* Menu icon to "Create Channel" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTE1IDEwaC01djVIOHYtNUgzVjhoNVYzaDJ2NWg1Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDE4djE4SDAiLz4KICA8L2c+Cjwvc3ZnPgo=");'] {
+      background-image: url(https://vgy.me/s2NpRS.png)!important;
+      opacity: .6!important;
+  }
+  /* Menu icon to "Create Category" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTMgMmg0djRIM1Yyem04IDVoNXY0aC01Vjd6bTAgNWg1djRoLTV2LTR6bS0xLTJINnYzaDR2Mkg0VjdoMnYxaDR2MnoiLz4KICA8L2c+Cjwvc3ZnPgo=");'] {
+      background-image: url(https://vgy.me/cNRXKF.png)!important;
+      opacity: .6!important;
+  }
+  /* Menu icon to "Notification Settings" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxnIGZpbGw9IiM3MzdGOEQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuMjUgMS41KSI+CiAgICAgIDxwYXRoIGQ9Ik02Ljc2NzcyMTAzLjc1SDEuNDk2MzE2OTdDLjY2OTQ2NzEuNzUgMCAxLjQxOTkyMzkzIDAgMi4yNDYzMTY5N1YxMi43NTM2ODNDMCAxMy41ODA1MzI5LjY2OTkyMzkzIDE0LjI1IDEuNDk2MzE2OTcgMTQuMjVIMTIuMDAzNjgzYy44MjY4NDk5IDAgMS40OTYzMTctLjY2OTkyMzkgMS40OTYzMTctMS40OTYzMTdWNy40ODIwODM2MmMtLjQ1NDM1NTYuMjkxMjMwODgtLjk1OTk3NTguNTA5MTQ4OS0xLjUuNjM3MDU3NDRWMTIuNzVIMS41VjIuMjVoNC42MzA3Mzk5MmMuMTI3ODkxMzYtLjU0MDI4ODcuMzQ1ODI2Ny0xLjA0NTg0MjQuNjM2OTgxMS0xLjV6Ii8+CiAgICAgIDxyZWN0IHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHg9IjguMjUiIHJ4PSIzIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4=");'] {
+      opacity: .6!important;
+  }
+  /* Menu icon to "Privacy Settings" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGQ9Ik05IDloNS4yNWMtLjM5NzUgMy4wODI1LTIuNDYgNS44MzUtNS4yNSA2LjY5VjlIMy43NVY0LjcyNUw5IDIuMzkyNVY5em0wIDBIMy43NWMuMzk3NSAzLjA4MjUgMi40NiA1LjgzNSA1LjI1IDYuNjlWOWg1LjI1VjQuNzI1TDkgMi4zOTI1Vjl6TTkgLjc1bC02Ljc1IDN2NC41YzAgNC4xNjI1IDIuODggOC4wNDc1IDYuNzUgOSAzLjg3LS45NTI1IDYuNzUtNC44Mzc1IDYuNzUtOXYtNC41TDkgLjc1eiIvPgogIDwvZz4KPC9zdmc+");'] {
+      opacity: .6!important;
+  }
+  /* Menu icon to "Hide Muted Channels" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("/assets/858df73648ac3877a22156da2e69a5fd.svg");'] {
+      background-image: url(https://vgy.me/izXdJp.png)!important;
+      opacity: .6!important;
+  }
+  /* Menu icon to "Change Nickname" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPHBhdGggZmlsbD0iIzczN0Y4RCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMyAxNHYtMi41bDcuODgtNy44NWMuMTktLjIuNTEtLjIuNzEgMGwxLjc2IDEuNzZjLjIuMi4yLjUxIDAgLjcxTDUuNDcgMTRIM3ptMTIgMEg3LjVsMi0ySDE1djJ6Ii8+Cjwvc3ZnPg==");'] {
+      background-image: url(https://vgy.me/cR5Txy.png)!important;
+      opacity: .6!important;
+  }
+  /* Menu icon to "Show Muted Channels" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgPGRlZnM+CiAgICA8cGF0aCBpZD0iYSIgZD0iTTEyLDQuNSBDNyw0LjUgMi43Myw3LjYxIDEsMTIgQzIuNzMsMTYuMzkgNywxOS41IDEyLDE5LjUgQzE3LDE5LjUgMjEuMjcsMTYuMzkgMjMsMTIgQzIxLjI3LDcuNjEgMTcsNC41IDEyLDQuNSBMMTIsNC41IFogTTEyLDE3IEM5LjI0LDE3IDcsMTQuNzYgNywxMiBDNyw5LjI0IDkuMjQsNyAxMiw3IEMxNC43Niw3IDE3LDkuMjQgMTcsMTIgQzE3LDE0Ljc2IDE0Ljc2LDE3IDEyLDE3IEwxMiwxNyBaIE0xMiw5IEMxMC4zNCw5IDksMTAuMzQgOSwxMiBDOSwxMy42NiAxMC4zNCwxNSAxMiwxNSBDMTMuNjYsMTUgMTUsMTMuNjYgMTUsMTIgQzE1LDEwLjM0IDEzLjY2LDkgMTIsOSBMMTIsOSBaIi8+CiAgPC9kZWZzPgogIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICA8cG9seWdvbiBwb2ludHM9IjAgMCAyNCAwIDI0IDI0IDAgMjQiLz4KICAgIDx1c2UgZmlsbD0iIzRGNTQ1QyIgeGxpbms6aHJlZj0iI2EiLz4KICA8L2c+Cjwvc3ZnPgo=");'] {
+      background-image: url(https://vgy.me/9QONqp.png)!important;
+      opacity: .6!important;
+  }
+  /* Menu icon to "Leave Server" in guild dropdown */
+  .popout-menu-icon[style='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGQ9Ik0xNC4yNSAyLjI1SDMuNzVjLS44MzI1IDAtMS41LjY2NzUtMS41IDEuNXYzaDEuNXYtM2gxMC41djEwLjVIMy43NXYtM2gtMS41djNjMCAuODI4NDI3MS42NzE1NzI4NyAxLjUgMS41IDEuNWgxMC41Yy44Mjg0MjcxIDAgMS41LS42NzE1NzI5IDEuNS0xLjVWMy43NWMwLS44MzI1LS42NzUtMS41LTEuNS0xLjV6bS02LjY5IDkuNDM1bDEuMDY1IDEuMDY1TDEyLjM3NSA5bC0zLjc1LTMuNzVMNy41NiA2LjMwNzUgOS41MDI1IDguMjVIMi4yNXYxLjVoNy4yNTI1TDcuNTYgMTEuNjg1eiIvPgogIDwvZz4KPC9zdmc+");'] {
+      opacity: .6!important;
+  }
+    .popout-bottom .popout-menu .popout-menu-item.leave:active {
+      background-color: #3F1313;
+    }
