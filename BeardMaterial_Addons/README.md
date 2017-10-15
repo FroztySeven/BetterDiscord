@@ -7,14 +7,7 @@ If you find any bugs with one of my addons, please contact me so i can address t
 > NOTICE: These addons should only be used together with the theme itself. They might break with other themes
 
  
- 
- 
-## Classic Server Dropdown Menu (with automatic updates)
-
-### Preview
-###### Default design             New design
-
-![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif)
+ - [Classic Server Dropdown(https://github.com/FroztySeven/BetterDiscord/tree/master/BeardMaterial_Addons/ClassicServerDropdown) - A rewrite of Anxeal's BetterFormatting that includes new options and settings.
 
 
 ###### CSS Code
