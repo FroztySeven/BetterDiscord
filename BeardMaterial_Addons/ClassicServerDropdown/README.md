@@ -15,13 +15,14 @@
 ```css
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/.css/ClassicServerDropdown_HS.css);
 ```
-```css
-Changelog:
+```
+*Changelog:*
 v1.1:
 - New smoother open and close animations
 - Dropdown menu items labels will now tilt to the left and the right when hovered, looks fancy
 - Invite People & Leave Server will now highlight their matching colors when clicked
 - Fixed the laggy/stuttery feeling of the menu
+
 v1.0
 - Published to GitHub, addon completed
 ```
