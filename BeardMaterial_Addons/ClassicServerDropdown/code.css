@@ -38,7 +38,7 @@
       }
   .popout-bottom[style*="overflow: hidden; visibility: visible;"] {
     box-shadow: none!important;
-    left: 0px!important;
+    left: 70px!important;
     top: 56px!important;
     width: 300px!important;
     height: 1000px!important;
