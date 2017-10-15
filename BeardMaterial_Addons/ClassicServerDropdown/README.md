@@ -1,9 +1,9 @@
 
 ## Classic Server Dropdown Menu (with automatic updates)
 
-###### Default design             New design
+###### Default beard design           New design v1.1           New design v1.2
 
-![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif)
+![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif) ![](https://vgy.me/y5S4Pl.gif)
 
 
 ###### CSS Code:
