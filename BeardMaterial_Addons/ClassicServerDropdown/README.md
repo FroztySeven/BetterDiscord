@@ -16,7 +16,7 @@
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/.css/ClassicServerDropdown_HS.css);
 ```
 ```
-Changelog:
+                                        Changelog:
 v1.1 - October 15, 2017:
 ⦁ New smoother open and close animations
 ⦁ Dropdown menu items labels will now tilt to the left and the right when hovered, looks fancy
