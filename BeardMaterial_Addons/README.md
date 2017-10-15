@@ -11,13 +11,3 @@ If you find any bugs with one of my addons, please contact me so i can address t
   
 ###### October 09, 2017
 - [Classic Server Dropdown](https://github.com/FroztySeven/BetterDiscord/tree/master/BeardMaterial_Addons/ClassicServerDropdown) - Return the default Discord server popout dropdown menu but made to fit the theme.
-
-
-###### CSS Code
-```css
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu.css);
-```
-###### CSS Code for Horizontal Serverlist users
-```css
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons%20for%20Beard%20Material%20Theme/.css/ClassicServerDropdownMenu_HS.css);
-```
