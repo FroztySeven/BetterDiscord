@@ -1,5 +1,5 @@
 
-## Classic Server Dropdown Menu (with automatic updates)
+## Classic Server Dropdown (Automatic Updates)
 
 ###### Default Beard design            New design v1.1               New design v1.2
 
