@@ -1,7 +1,6 @@
 
 ## Classic Server Dropdown Menu (with automatic updates)
 
-### Preview
 ###### Default design             New design
 
 ![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif)
