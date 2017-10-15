@@ -6,9 +6,10 @@ If you find any bugs with one of my addons, please contact me so i can address t
 
 > NOTICE: These addons should only be used together with the theme itself. They might break with other themes
 
-
   
-```October 09, 2017```
+  
+  
+###### October 09, 2017
 - [Classic Server Dropdown](https://github.com/FroztySeven/BetterDiscord/tree/master/BeardMaterial_Addons/ClassicServerDropdown) - Return the default Discord server popout dropdown menu but made to fit the theme.
 
 
