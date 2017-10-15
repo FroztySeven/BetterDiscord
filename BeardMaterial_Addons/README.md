@@ -8,7 +8,7 @@ If you find any bugs with one of my addons, please contact me so i can address t
 
 
   
-October 09, 2017 
+```October 09, 2017```
 - [Classic Server Dropdown](https://github.com/FroztySeven/BetterDiscord/tree/master/BeardMaterial_Addons/ClassicServerDropdown) - Return the default Discord server popout dropdown menu but made to fit the theme.
 
 
