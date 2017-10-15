@@ -8,12 +8,11 @@
 
 ###### CSS Code
 ```css
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/
-.css/ClassicServerDropdown.css);
+@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/.css/code.css);
 ```
 ###### CSS Code for Horizontal Serverlist users
 ```css
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/.css/ClassicServerDropdown_HS.css);
+@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/.css/codeHS.css);
 ```
 ```
                                                   Changelog:
