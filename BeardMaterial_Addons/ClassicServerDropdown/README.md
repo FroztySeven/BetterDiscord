@@ -6,15 +6,15 @@
 ![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif)
 
 
-###### CSS Code
+###### CSS Code:
 ```css
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/code.css);
 ```
-###### CSS Code for Horizontal Serverlist users
+###### CSS Code for Horizontal Serverlist users:
 ```css
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/BeardMaterial_Addons/ClassicServerDropdown/codeHS.css);
 ```
-###### Changelog
+###### Addon Changelog:
 ```
 v1.2 - October 15, 2017:
 ⦁ New smoother open and close animations
