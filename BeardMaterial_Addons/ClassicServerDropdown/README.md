@@ -4,6 +4,7 @@
 
 ###### Default Beard design            New design v1.1               New design v1.2
 
+NEWS
 ![](https://vgy.me/1UoDEF.gif) ![](https://vgy.me/lml6YC.gif) ![](https://vgy.me/y5S4Pl.gif)
 
 
