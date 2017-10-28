@@ -1,6 +1,6 @@
 
 ## Classic Server Dropdown (Automatic Updates)
-DO NOT USE RIGHT NOW!
+> October 26 : After a recent Discord update this addon is no longer working propertly. Work in progress...
 
 ###### Default Beard design            New design v1.1               New design v1.2
 
