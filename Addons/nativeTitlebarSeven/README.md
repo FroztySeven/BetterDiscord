@@ -1,6 +1,7 @@
 
-## nativeTitlebar (Auto Updates)
-Credits to [internl](https://github.com/intrnl) for creating this addon
+## nativeTitlebarSeven (Auto updates)
+Credits to [internl](https://github.com/intrnl) for creating the original nativeTitleBar addon
+[Original nativeTitlebar](https://github.com/intrnl/discordAdditions/tree/master/nativeTitlebar) can be found here
 
 This is an edit by me which has a new discord logo to the right side, smaller caption buttons.
 
