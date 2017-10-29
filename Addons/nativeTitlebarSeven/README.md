@@ -8,7 +8,7 @@ Original nativeTitlebar can be found [here](https://github.com/intrnl/discordAdd
 
 ###### Features
 - Caption button tooltips coded by [internl](https://github.com/intrnl)
-- New discord logo for the right side
+- New discord logo on the titlebar
 - Less spaced caption buttons
 - Works best with the Beard Material theme by [BeardDesign](https://github.com/BeardDesign1/Material-design-theme)
 
