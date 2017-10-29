@@ -1,5 +1,5 @@
 
-## nativeTitlebarSeven (Auto update system)
+## nativeTitlebarSeven (Auto update css)
 *This is my own modification of the original nativeTitlebar*
 
 Credits to [internl](https://github.com/intrnl) for creating the original nativeTitleBar addon
