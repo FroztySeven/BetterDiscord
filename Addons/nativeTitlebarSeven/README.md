@@ -28,9 +28,3 @@ Original nativeTitlebar can be found [here](https://github.com/intrnl/discordAdd
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Addons/nativeTitlebarSeven/code.css);
 ```
 
-###### Addon Changelog:
-```
-v1.0 - October 29, 2017
-⦁ Published to GitHub, addon completed
-```
-
