@@ -10,11 +10,10 @@ This is an edit by me which has a new discord logo to the right side, smaller ca
 
 >Tooltips are adjusted to my own Beard Material tooltips
 
-
   
   
   
-Toolbar preview
+###### October 09, 2017
 
 ![](https://vgy.me/aHUKBH.jpg)
 
