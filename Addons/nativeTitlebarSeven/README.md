@@ -1,6 +1,7 @@
 
 ## nativeTitlebarSeven (Auto update system)
 *This is my own modification of the original nativeTitlebar*
+
 Credits to [internl](https://github.com/intrnl) for creating the original nativeTitleBar addon
 
 Original nativeTitlebar can be found [here](https://github.com/intrnl/discordAdditions/tree/master/nativeTitlebar)
