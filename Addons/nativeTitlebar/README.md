@@ -19,7 +19,7 @@ Caption buttons with tooltips
 
 ###### Addon Changelog:
 ```
-v1.0 - October 09, 2017
+v1.0 - October 29, 2017
 ⦁ Published to GitHub, addon completed
 ```
 
