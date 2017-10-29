@@ -8,6 +8,7 @@ This is an edit by me which has a new discord logo to the right side, smaller ca
 
 ###### Features
 ⦁ Caption button tooltips coded by [internl](https://github.com/intrnl)
+
 ⦁ New discord logo for the right side
 
 ⦁ Less spaced caption buttons
