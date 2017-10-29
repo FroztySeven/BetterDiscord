@@ -5,9 +5,11 @@ Credits to [internl](https://github.com/intrnl) for creating this addon
 This is an edit by me which has a new discord logo to the right side, smaller caption buttons and tooltips coded by [internl]
 
 Toolbar preview
+
 ![](https://vgy.me/aHUKBH.jpg)
 
 Caption buttons with tooltips
+
 ![](https://vgy.me/b4NKBS.gif)
 
 ###### CSS Code:
