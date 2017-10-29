@@ -3,7 +3,9 @@
 Credits to [internl](https://github.com/intrnl) for creating this addon
 
 This is an edit by me which has a new discord logo to the right side, smaller caption buttons.
+
 >Tooltips are coded by [internl](https://github.com/intrnl)
+
 >Tooltips are adjusted to my own Beard Material tooltips
 
 Toolbar preview
