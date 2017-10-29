@@ -1,6 +1,7 @@
 
 ## nativeTitlebar (Auto Updates)
 *Credits to [internl](https://github.com/intrnl)* for creating this addon
+
 This is an edit by me which has a new discord logo to the right side, smaller caption buttons and tooltips coded by [internl]
 
 Toolbar preview
