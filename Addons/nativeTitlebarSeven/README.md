@@ -13,11 +13,11 @@ This is an edit by me which has a new discord logo to the right side, smaller ca
   
   
   
-###### October 09, 2017
+###### Titlebar preview
 
 ![](https://vgy.me/aHUKBH.jpg)
 
-Caption buttons with tooltips
+###### Caption buttons preview
 
 ![](https://vgy.me/b4NKBS.gif)
 
