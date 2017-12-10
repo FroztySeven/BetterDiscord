@@ -34,7 +34,7 @@
 
 /* Custom background image for discord */
 .app, #pubslayerroot .layer .ui-standard-sidebar-view {
-	background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/24/Lenny_face.png');
+	background-image: url('urlhere');
 	background-size: cover !important;
 	background-position: center !important;
 }
