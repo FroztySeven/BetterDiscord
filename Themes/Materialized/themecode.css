@@ -34,7 +34,7 @@
 
 /* Custom background image for discord */
 .app, #pubslayerroot .layer .ui-standard-sidebar-view {
-	background-image: url('https://78.media.tumblr.com/7724b5662fc33f0d680c6e655229fd48/tumblr_ngmc3lmb581sjoq1co1_500.gif')!important;
+	background-image: url('https://78.media.tumblr.com/7724b5662fc33f0d680c6e655229fd48/tumblr_ngmc3lmb581sjoq1co1_500.gif');
 	background-size: cover !important;
 	background-position: center !important;
 }
