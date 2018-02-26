@@ -1,4 +1,4 @@
-  :root {
+ :root {
       --version: "Materialized Beta v0.4";
       /*--accent-color: #7289DA; - default */
       --accent-color: #359eff;
@@ -371,6 +371,7 @@ html, span:not(.spinner-item) {
 .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(5)::before {
     content: url("https://vgy.me/S6QViP.png");
 }
+
 /*Security */
 .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(12)::before,
 div.platform-osx .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(14)::before,
@@ -395,31 +396,7 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(3)::before {
     content: url("https://vgy.me/cmgsoP.png");
 }
-.layer[layer-id="user-settings"] .item-3879bf:nth-of-type(7)::before,
-.layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:nth-of-type(7)::before {
-    content: "|";
-    width: 24px;
-    height: 0px;
-    font-family:BMTicons,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color:var(--accent-color);
-    font-size:23px;
-    transform:translate(0,4px);
-}
-.itemBrand-mC9YR4{
-    color:var(--accent-color);
-}
-.layer[layer-id="user-settings"] .item-3879bf:active:nth-of-type(7)::before,
-.layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item:active:nth-of-type(7)::before,
-.layer[layer-id="user-settings"] .item-3879bf.selected-eNoxEK:nth-of-type(7)::before,
-.layer[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .ui-tab-bar.SIDE .ui-tab-bar-item.selected:nth-of-type(7)::before {
-    width: 24px;
-    height: 0px;
-    font-family:BMTicons,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color:var(--white10);
-    font-size:23px;
-    transform:translate(0,4px);
-    transition:0ms!important;
-}
+
 
 
 /*text & images*/
@@ -4441,6 +4418,15 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     top: 0px;
     left: 80px!important;
     z-index: 1000;
+}
+.guild.folder .badge.folder.count {
+    background: transparent!important;
+    font-size: 16px;
+    height: 12px;
+    top: 0px;
+    right: 30px;
+    box-shadow: none !important;
+    text-shadow: 1px 1px 2px black!important;
 }
 .folderopen {
     overflow: visible !important;
