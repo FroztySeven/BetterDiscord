@@ -4,7 +4,6 @@
       --accent-color: #359eff;
 
     .app {
-      /* so other css can easily detect it, define your default on :root as 0 */
       --horizontal-serverlist: 1;
 
       /* TransientMaterial */
