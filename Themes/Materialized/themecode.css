@@ -162,7 +162,7 @@ html, span:not(.spinner-item) {
 .status-166iio::after {
   opacity: 1;
   font-size: 17px;
-  content: "Lost connection to Discord servers! Reconnecting⁪⁪⁪⁪...";
+  content: "Connecting Discord...";
   color: white;
 }
 .container-2oOGIt video {
