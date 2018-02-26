@@ -3,12 +3,6 @@
       /*--accent-color: #7289DA; - default */
       --accent-color: #359eff;
 
-      /* for Jiiks' server grid */
-      --public-button-in-use: 0;  /* 0 or 1, unfortuantely css can't detect it where it's required */
-      --height-titlebar: 22px;
-      /*--DM-column-count: 1;*/
-      --show-unread-indicator: 1;
-    }
     .app {
       /* so other css can easily detect it, define your default on :root as 0 */
       --horizontal-serverlist: 1;
