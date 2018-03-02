@@ -1,7 +1,8 @@
 
 ## Classic Server Dropdown (Automatic Updates)
 NEWS
-> October 26 : After a recent Discord update this addon is no longer working propertly. Work in progress...
+> February 2, 2018 : This addon is no longer in development. But will move it's way into my Materialized theme instead!
+> October 26, 2017 : After a recent Discord update this addon is no longer working propertly.
 
 ###### Default Beard design            New design v1.1               New design v1.2
 
