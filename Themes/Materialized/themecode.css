@@ -1,5 +1,5 @@
-:root {
-      --version: "Materialized Beta v0.5";
+ :root {
+      --version: "Materialized Beta v0.5a";
       /*--accent-color: #7289DA; - default */
       --accent-color: #359eff;
     }
@@ -33,6 +33,7 @@ html, span:not(.spinner-item) {
 /*=============================================
 =                 General UI                  =
 =============================================*/
+
 
 html {
     background: black;
@@ -945,7 +946,6 @@ div.avatar-large {
 
 .textArea-20yzAH:focus {
     border-color: var(--accent-color);
-    transition: 200ms ease!important;
     box-shadow: 0 2px 0 rgba(255,255,255,.05),0 2px 0 var(--accent-color)!important;
 }
 /* Chat bar disabled */
@@ -1599,16 +1599,28 @@ user-select: none;
 .account .status {
     transition: all 200ms ease!important
 }
-
 .container-iksrDt .avatar-small {
   bottom: 30px!important;
   left: 0px;
   background-repeat: no-repeat;
 }
-.accountDetails-15i-_e {
-  margin-left: 0px!important;
-  margin-bottom: 55px!important;
+.accountDetails-15i-_e .username {
+    position: absolute;
+    margin-top: -43px;
+    display: block;
+    max-width: 84px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
+.accountDetails-15i-_e .discriminator {
+    position: absolute;
+    display: block;
+    font-size: 10px;
+    margin-top: -25px;
+    opacity: .4;
+}
+
 
 .container-iksrDt .horizontal-2VE-Fw {
   position: relative;
