@@ -1,10 +1,18 @@
 :root {
-    --version: "Materialized Beta v0.6a";
+    --version: "Materialized Beta v0.6b";
     /*--accent-color: #7289DA; - default */
     --accent-color: #359eff;
     --notification-color: #e42323;
 }
 
+/* BetterDiscord */
+.toast {
+    cursor: pointer!important;
+}
+.toast:active {
+    background-color: var(--accent-color)!important;
+    animation: 500ms toastpulse ease!important;
+}
 
 /* Title Bar */
 .titleBar-3_fDwJ {
@@ -1278,14 +1286,6 @@ div.avatar-large {
 
 
 /* Chat reactions */
-.app {
-    --accent-opacity: 0.5;
-}
-.reaction.reaction-me .reaction-count {
-	background: rgba(0,0,0, var(--accent-opacity)), rgba(0,0,0, var(--accent-color)) !important;
-  }
-
-
 .message-group .reaction {
     background: none;
     position: relative;
@@ -1305,16 +1305,16 @@ div.avatar-large {
     width: 24px;
     height: 24px;
     background: var(--top-nav-color);
+    margin-top: 0px;
     margin-bottom: 25px !important;
   }
   
   .message-group .reaction .emoji {
     margin: 2px !important;
-    width: 24px !important;
-    height: 24px !important;
+    width: 20px !important;
+    height: 20px !important;
     background: none;
     background: var(--channels-color);
-    box-shadow: 0 0 0px 3px #282D3C;
     border-radius: 3px;
   }
   .message-group .reaction .emoji:hover {
@@ -1323,23 +1323,23 @@ div.avatar-large {
   
   
   .message-group .reaction {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     padding: 0;
     transform: none !important;
-    margin-right: 5px;
+    margin-right: 7px;
     animation: scale 300ms ease;
   }
   
   .message-group .reaction .reaction-count {
     position: absolute !important;
     color: #fff;
-    left: -2px;
+    left: -4px;
     right: 0;
     width: 36px;
     font-size: 14px;
     letter-spacing: 0;
-    top: 38px;
+    top: 32px;
     margin: 0 auto;
     z-index: 5;
     text-align: center;
@@ -1357,8 +1357,7 @@ div.avatar-large {
     color: var(--accent-color)!important;
     border-radius: 3px;
     color: #000000;
-    top: 40px;
-    left: -2px;
+
 }
   
   
@@ -4660,16 +4659,22 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
   .guilds-wrapper .guilds .friends-icon {
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACBFBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+CAoa0AAAAq3RSTlMAAQIDBAUHCAkKCwwNDg8QERIUFRcYGRocHR4fICEiIyQlJikqKywtMDIzNTg7PT5AQUJFRkdISUpLTU5PUFFSU1dZXmFiZmdoa2xtb3Byc3R1dnl6e32AgYKEhYiKjI+RkpSWl5manJ2en6ChoqOkpaaoqaqsra6xs7i5ur2+wcLDxsjKy83O0NHS09bX2Nnb3N3f4ePl5ujp6uvt7vDx8vP09fb3+Pr7/f5i9vAlAAAEEklEQVR4AezcIa6DQBCAYR5PsqhWYzktsogatiRVXLI9QEOygiwZvt+OmXxuzDS6TpIkSZIkSZIkSZIkSZIkzfnUzd3RANvJ648GyNupywkAAAAAAAAAAAAAAAAAABwPsI5D1ca1MsDSVG6pDJBTU7X0Yx8AAAAAAAAAAAAAAAAAAND+F9VGA+imR1FTNIB+KywawHdeVAYAAAAAAAAAAAAAAECQY+jiAOn53i86wN/tvtvwCglQ0HJxgJQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ4bn6h7z7bmoqjeI4/stuYHfZAbLsUsKaAQuMBVQEFBGxA6JYsGDvWAQUewcRlQJCUEYJaCIFApw36fj/c64zyXMfnsn5voKTz5zMnTn3jxv/Bvi8zsExb7z5lnoDFkNjjo38Db7twbF4Cy0aB9D3/b/TpCPLAfiBkh+RaIDCIIkGqFwg0QDniCQD/H6fRAMUDpFogOooiQY4SyQZwPuURAOsHiTRAJVEogHOUAIAxD5Q0hMyUKrbAKEZ51iAVUFimtFYyPUNSPc55p9kAHbNE9M+n8bSPVoA9J+oThHTp4123RRdOlI+I6bOvyAAoKCXmK4AiQ6QBuwgrlokPMCcw9N/tAiJD/Ax5RYxdaRBAMCXUWJqBgQA8O2BaIDQBogG6EyHaICrgGiAGogGmCiCaIAX/8CmPBHDANdgV8mGN2Av1LUOx95QI/hSeoYdCy6YBBgvhrLstxRX18GWSr/KIEDHv1BW9o3i7E0OP489AJeh7gjFX6TEfoAaqLtNWjpkOcD4GijL6idNtVkN8DILyrZOkLa6AvYCNEPdAdLZ92JbAeqg7iZprsFKgFARlOW8J+3dsBDgVQaUlYfJhbr9tgFchLpGcqdIqV0A9VDmaSbXqrcIYGItlGX2k4u1WgPQ+R+UVc+Tq3VlxwxAOgEuQdlvR8ntJjfFCjCpEaAWDMD6goCmdrI/r4EBmCoMOPa/NoDP62Agfw8xtagBIqaOjK99MJLnMTG9y2Re1xsBuABjHSSmSPnSAeyHwapmiakOSDMOEGH+/i6W10dMd4BZwwB/RqkjA6ZrJ6bn+SOGAbJ/qpvvMDFFvxoGCOzGklQxT3w8QAKV3y0cAHgoHQDHpAOgalo4APIGhAMA96QD4IR0AJRFhQNgZY9wAOCBdACclA6ALVPCAbC8VzgA0CIdAE3SAVA6JxwAKwaEA8BzVzgAcFw6ADaHhQMg94NwAHhbhAMATdIBUDEtHAD5fcIB4GkTDgA0SgfAtrBwACwbJApLBkBSO9EfEN15yoXsSvz40R4cCAAAAAAI8rceYYFqAAAAAAEefSZtIWsy0wAAAABJRU5ErkJggg==")!important;    
+      background-position: 7px!important;
       opacity: 1;
       top: 20px;
       background-size: 70%!important;
+      width: 55px!important;
   }
   .guilds-wrapper .guilds .friends-icon:hover {
       border-radius: 100px;
       background-color: black;
+      transition: all 100ms ease;
   }
   .active .friends-icon {
       background-color: var(--accent-color);
+      background-position: 7px!important;
+      transition: all 100ms ease;
+      width: 55px!important;
   }
   .active:hover .friends-icon:hover {
     background-color: var(--accent-color);
@@ -5011,13 +5016,11 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     background: transparent!important;
     font-size: 16px;
     height: 12px;
-    top: 60px;
+    top: 60px!important;
     right: 30px;
     box-shadow: none!important;
     text-shadow: 1px 1px 2px black!important;
 }
-
-
 
 .content-1Cut5s {
     padding-top: 10px;
