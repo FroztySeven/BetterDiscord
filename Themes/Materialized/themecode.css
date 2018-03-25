@@ -1531,6 +1531,9 @@ div.avatar-large {
     filter: brightness(1);
     opacity: 1!important;
 }
+.attachButton-Di6YUh:active {
+    background-color: var(--accent-color);
+}
 .attachButton-Di6YUh.popout-open {
     background-color: var(--accent-color);
     filter: brightness(1);
@@ -1585,6 +1588,10 @@ div.avatar-large {
     filter: brightness(1);
     opacity: 1!important;
 }
+.emojiButton-38mF6t:active {
+    background-color: var(--accent-color); 
+}
+
 .emojiButton-38mF6t.popout-open {
     background-color: var(--accent-color);
     filter: brightness(1);
