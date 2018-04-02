@@ -1,5 +1,5 @@
 :root {
-    --version: "Materialized Beta v0.6d";
+    --version: "Materialized Beta v0.6e";
     /*--accent-color: #7289DA; - default */
     --accent-color: #359eff;
     --notification-color: #e42323;
@@ -1774,13 +1774,14 @@ textarea.has-results .channel-textarea-inner
     background: linear-gradient(to right,#111111 85%,#131313);
 }
 
-/* Crown icon for Group or Guild owned */
-.channel-members .member .member-owner-icon path {
-	fill: #aaa !important;
+.ownerIcon-2RBgEv {
+    position: relative;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAzFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////86kuEIAAAAQ3RSTlMAAgUHCA4PERUdHiQoKSorLzAzN0FES1NUYGZnbG1viImVmJmhoqusra6wu77CysvMzc7X2Nvm6+3u8PHy8/X4+fz9RUTz+gAAATJJREFUeAHt0dlOwkAYxfEDCtoqLqAoLijggopaF0AsoHDe/52cfhY700yc9kZj4u/6m2T+Ofglfnc4vFrLcT+iMvKQVZfiAlmNKV6R1YQiRFbXeb+0LtEvHjLzH8kHDzkEZIAcqlSqOVbtUGnb7uyrliZUJiXb+tZVDykObOtbVw0oAtv6tlW3GduyrG9btcNY27J+vOpsJ52czq7PF+v73fGUHO2mk83sekhOw0sPojwnZ00z2cxuzsh5GV+eqXSK8cqaz7WLUvWExDkjNytaspa9esvIGRLHFP3KIlnPrvQpjpCoUah0PVmyJVfUkFh+p1DpAQ1BlCvelqC5p9MddC06taBr0KkB3SadNqArhHQICzD06NCD6ZQOJzDt02EPJp8OHlIG/NYAP48O/w/+uA/Sie9m6qUSJQAAAABJRU5ErkJggg==);    background-size: 100%;
+    left: 3px;
 }
 
 /* Playing status */
-.channel-members .member .member-activity strong {
+.activity-1PAe08 strong {
     color: var(--accent-color);
 }
 
