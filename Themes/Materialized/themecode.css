@@ -1,5 +1,5 @@
 :root {
-    --version: "Materialized Beta v0.6e";
+    --version: "Materialized Beta v0.6f";
     /*--accent-color: #7289DA; - default */
     --accent-color: #359eff;
     --notification-color: #e42323;
@@ -1765,7 +1765,8 @@ textarea.has-results .channel-textarea-inner
 =============================================*/
 
 
-.theme-dark .channel-members {
+.theme-dark .channel-members,
+.theme-dark .members-1bid1J {
     background-color: #161616;
 }
 
