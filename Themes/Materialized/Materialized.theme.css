@@ -1,13 +1,13 @@
-//META{"name":"Materialized","description":"A custom material theme ","author":"FroztySeven","version":"0.6 Beta"}*//{}
+//META{"name":"Materialized","description":"Make your Discord more pretty with Material design. Auto updates","author":"FroztySeven","version":"Auto"}*//{}
 
 /*
 -----------------------------------------------------------------------------------------------------------------
  ~ Materialized ~
- A custom dark theme by FroztySeven
+ A Material theme by FroztySeven
 
  Theme Status: Early release version...
  Source: https://github.com/FroztySeven/
 -----------------------------------------------------------------------------------------------------------------
 */
 
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/master/Themes/Materialized/themecode.css);
+@import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/mastercode.css);
