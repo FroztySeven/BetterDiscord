@@ -1,0 +1,2 @@
+# BetterDiscord
+Everything BetterDiscord related
