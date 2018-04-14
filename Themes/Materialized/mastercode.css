@@ -4885,7 +4885,7 @@ form.modal-content.form.alert.has-icon {
     border: none;
     border-radius: 3px!important;
     padding: 0px 0px;
-    box-shadow: 0 0px 16px #000000 !important;
+    box-shadow: 0 0px 10px #000000!important;
     transform-origin: top;
     animation: context_expand cubic-bezier(.5, 0, 0, 1) 200ms backwards;
     z-index: 10000;
