@@ -4918,10 +4918,10 @@ body:active .popout.popout-top-right.no-arrow.no-shadow[style*="z-index: 2000;"]
 }
 .searchOption-zQ-1l6 .filter-3Y_im-,
 .searchOption-zQ-1l6 .filter-3Y_im-.selected .filter {
-    background-color: var(--accent-color);
     padding: 2px;
     border-radius: 3px;
     color: white;
+    opacity: 1;
 }
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
     background-color: var(--accent-color);
