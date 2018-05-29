@@ -26,5 +26,9 @@
 .appMount-3VJmYg .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="161692463365357568"] + .statusProfile-3ynqtt::before {
     background-image: url("https://i.imgur.com/QG0TZfi.png");
 }
+/* Franckberry#0698 */
+.appMount-3VJmYg .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="122363888128884738"] + .statusProfile-3ynqtt::before {
+    background-image: url("https://cdn.discordapp.com/attachments/416941919529336844/451065643215618048/tenor.gif");
+}
 
 
