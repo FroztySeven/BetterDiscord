@@ -4005,7 +4005,7 @@ body:active .container-3nXdBP:not(:active) {
     text-align: center;
     pointer-events: none;
     opacity: 1;
-    animation: opacity 300ms ease;
+    animation: statuspicker-status 300ms ease;
 }
 
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl:nth-of-type(5) .status {
@@ -4049,7 +4049,7 @@ body:active .container-3nXdBP:not(:active) {
     text-align: center;
     pointer-events: none;
     opacity: 1;
-    animation: opacity 300ms ease;
+    animation: statuspicker-status 300ms ease;
 }
 
 
