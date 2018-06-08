@@ -6728,10 +6728,11 @@ body {
     background: transparent!important;
     font-size: 16px;
     height: 12px;
-    top: 60px!important;
+    top: 34px!important;
     right: 30px;
     box-shadow: none!important;
     text-shadow: 1px 1px 2px black!important;
+    z-index: 1000;
 }
 .content-2BXhLs {
     padding-top: 10px;
