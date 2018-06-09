@@ -6706,7 +6706,7 @@ body {
 .foldercontainer {
     position: absolute;
     top: 3px!important;
-    padding-top: 20px;
+    padding-top: 20px!important;
     left: 75px!important;
     height: calc(720px - -80px);
 }
