@@ -1,3 +1,7 @@
+/* Imports */
+@import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_bg.css);
+
+
 :root {
     --version: "Materialized Beta v0.8b";
     /*--accent-color: #7289DA; - default */
@@ -362,8 +366,6 @@ html {
     background-position: 15px 3px!important;
 }
 /*=====  End of Section ======*/
-
-
 
 
 /*User settings main*/
@@ -6621,8 +6623,7 @@ body {
     bottom: auto;
     border-radius: 3px;
     height: 27px!important;
-    top: 4px;
-    transform: translate(0,-100%);
+    top: 4px!important;
     opacity: 1;
     overflow: hidden!important;
     pointer-events: none;
@@ -6704,9 +6705,9 @@ body {
 /* ServerFolders - by DevilBro */
 .foldercontainer {
     position: absolute;
-    top: 3px;
+    top: 3px!important;
     padding-top: 20px;
-    left: 75px;
+    left: 75px!important;
     height: calc(720px - -80px);
 }
 .guilds-wrapper.folderopen {
@@ -6722,7 +6723,7 @@ body {
 .guilds > .foldercontainer + div.guild,
 .guilds > div.guild:first-of-type {
     position: absolute;
-    top: 5px;
+    top: 5px!important;
 }
 .guild.folder .badge.folder.count {
     background: transparent!important;
@@ -6891,4 +6892,3 @@ body {
 .innerNoAutocomplete-1WpcVO {
     padding-right: 0px!important;
 }
-
