@@ -1,9 +1,5 @@
-/* Imports */
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_bg.css);
-
-
 :root {
-    --version: "Materialized Beta v0.8b";
+    --version: "Materialized Beta v0.8c";
     /*--accent-color: #7289DA; - default */
     --accent-color: #359eff;
     --notification-color: #e42323;
@@ -2749,7 +2745,6 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 }
 /* Header avatar */
 .root-SR8cQa .avatar-16XVId {
-    background-color: #393939;
     border-radius: 100px;
     zoom: 1.1;
     border: 2px solid var(--chat-color);
@@ -2757,6 +2752,9 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     top: 65px;
     margin-left: 25px;
     margin-right: 20px;
+}
+.root-SR8cQa .avatar-16XVId:active {
+    background-color: #393939;
 }
 .root-SR8cQa .avatar-16XVId::before {
     content: '';
@@ -2771,19 +2769,27 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 .statusOnlineProfile-C7N-xU {
     z-index: 1;
 }
+.statusProfile-3ynqtt {
+    bottom: 3px;
+    height: 18px;
+    position: absolute;
+    right: 2.5px;
+    width: 18px;
+}
+
 .root-SR8cQa .maskProfile-1ObLFT:hover, .root-SR8cQa .mask-3OgeRz:hover {
     cursor: zoom-in;
 }
 .root-SR8cQa .maskProfile-1ObLFT, .root-SR8cQa .mask-3OgeRz {
     display: block;
-    transition: all 200ms ease;
 }
 .root-SR8cQa .maskProfile-1ObLFT:active, .root-SR8cQa .mask-3OgeRz:active {
-    transform: scale(3) translateX(80px) translateY(50px);
+    transform: scale(3) translateX(40px) translateY(10px);
     transition: all 200ms ease;
     -webkit-mask: none !important;
     mask: none !important;
     cursor: zoom-out;
+    border: 120px solid rgba(0, 0, 0, 0.507);
 }
 
   
@@ -6137,7 +6143,6 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 
 .guilds-wrapper {
-    position: relative;
     background: #0F0F0F;
     width: 85px;
 }
@@ -6153,7 +6158,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     background-color: #0F0F0F;
     padding-top: 0px;
     margin-top: 100px;
-    height: calc(1023px - 200px);
+    height: calc(101.3% - 200px);
     border-top: 2px solid #1D1D1D;
     border-bottom: 2px solid #1D1D1D;
 }
@@ -6499,10 +6504,6 @@ body {
 /* PluginRepo button */
 .button-1MICoQ {
     -webkit-app-region: nodrag;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAALElEQVR4AWOAgVEwChpIhDjBf9IgTQ2i3GuYYDTWRmNtNNZGY2001kbBKAAAN4IfUPT5MiAAAAAASUVORK5CYII=);    
-    background-repeat: no-repeat!important;
-    background-position: 3px -1px!important;
-    background-size: 25px;
     position: relative;
     left: 5px;
     margin-left: 5px;
@@ -6510,7 +6511,7 @@ body {
     background-color: white;
     cursor: pointer;
     color: black!important;
-    text-align: right!important;
+    text-align: left!important;
     font-weight: 600;
     padding: 40x 20px 4px!important;
     width: 108px;
@@ -6520,8 +6521,6 @@ body {
 }
 .button-1MICoQ:hover {
     background-color: #d3d3d3;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAALElEQVR4AWOAgVEwChpIhDjBf9IgTQ2i3GuYYDTWRmNtNNZGY2001kbBKAAAN4IfUPT5MiAAAAAASUVORK5CYII=);    
-    background-size: 25px;
     color: black!important;
     text-decoration: none!important;
     transition: all 0.2s ease !important;
@@ -6892,3 +6891,4 @@ body {
 .innerNoAutocomplete-1WpcVO {
     padding-right: 0px!important;
 }
+
