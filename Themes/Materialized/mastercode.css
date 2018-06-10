@@ -1,3 +1,6 @@
+/* Imports */
+@import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_bg.css);
+
 :root {
     --version: "Materialized Beta v0.8c";
     /*--accent-color: #7289DA; - default */
