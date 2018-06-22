@@ -770,76 +770,7 @@ html {
     text-decoration: none!important;
     transition: all 0.2s ease !important;
 }
-/* Nitro badge */
-.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after, .guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after, .message-group .avatar-large[style*='/a_'] + .comment .user-name::after {
-    transition: all 200ms ease!important;
-    position: relative;;
-    background: transparent;
-    bottom: 10px;
-    content: "";
-    display: inline-block;
-    height: 8px;
-    width: 19px;
-    margin-left: 3px;
-    content: url("https://i.imgur.com/ZvsGiVp.png");
-    vertical-align: bottom;
-}
 
-
-
-/*Username theme badge */
-  /*FroztySeven#9632*/  
-.avatar-large[style*="155407912481718272"] ~ .comment .user-name:hover::after {
-    content: 'Materialized Developer';
-    display: inline-block;
-    position: relative;
-    top: -1px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: white;
-    color: black;
-    padding: 0px 0px;;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: left;
-    animation: themebadge_developer 800ms ease, opacity 300ms 300ms backwards;
-}
-@keyframes themebadge_developer {
-    0% {
-        width: 0;
-        white-space: nowrap;
-    }
-    50% {
-        width: 140px;
-        white-space: nowrap;
-    }
-}
-  /*FroztySeven#9632*/  
-.avatar-large[style*="187190396789587969"] ~ .comment .user-name:hover::after {
-    content: 'Materialized Contributor';
-    display: inline-block;
-    position: relative;
-    top: -1px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: white;
-    color: black;
-    padding: 0px 0px;;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: left;
-    animation: themebadge_contributor 800ms ease, opacity 300ms 300ms backwards;
-}
-@keyframes themebadge_contributor {
-    0% {
-        width: 0;
-        white-space: nowrap;
-    }
-    50% {
-        width: 148px;
-        white-space: nowrap;
-    }
-}
 
 
 
