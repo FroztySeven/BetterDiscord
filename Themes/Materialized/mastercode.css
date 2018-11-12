@@ -5,7 +5,7 @@
 
 
 :root {
-    --version: "Materialized Beta v0.8g";
+    --version: "Materialized Beta v0.9";
     /*--accent-color: #7289DA; - default */
     --accent-color: #359eff;
     --notification-color: #e42323;
@@ -56,7 +56,7 @@
     background-color: #bf0f1d;
 }
 
-
+/*  */
 .titleBar-AC4pGV:after {
     content: '';
     height: 6px;
@@ -141,7 +141,7 @@
 
 
 
-
+h2
 
 
 
@@ -815,6 +815,75 @@ body,
     background: #303030;
 }
 
+/* New message bar */
+.chat .new-messages-bar {
+    background-color: var(--accent-color);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAt1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8QiqlJAAAAPHRSTlMAAgUHDA8QERIVISI3OTo9QUlQUVVWYW9yf4CDhYiJlJeZmqepqqyvvsjM0NHT1tjd4ePk5+jt9Pj6/f4bJ0QtAAAAwUlEQVR42u3Uxw6CQBSF4VFURLCP2CuCBWmCoHLf/7lkYSGZoUUXaviXN/lWJ7noYzW3njVns4i2D0E6k4EYMGFqGvTTCw4czl11QEFJFdh7dVBZYyrA7nEo0UFF8uCZGhwEeGWLNCIBRBPwW6QoniGUzvN8F8ItSFKF+JScxBLfMk03G9GCSyOZEOvnJCc5SUVsjPHwTz7MZSPL+2zk8K27nHoYj392l3ICWSMyJ56MKES8xokjhygJs2Vkgwp6pxvmzymeNQA1SgAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 0%;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 400;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    right: 0;
+    position: absolute;
+    text-transform: capitalize;
+    transition: background-color .2s;
+    z-index: 2;
+}
+.chat .new-messages-bar button {
+    background: none;
+    font-size: 0!important;
+    border-radius: 30px;
+    color: white!important;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.chat .new-messages-bar button:hover {
+    background: none;
+    border-radius: 30px;
+    font-size: 14px!important;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    animation: opacity 200ms ease 200ms backwards!important;
+}
+.chat .new-messages-bar:hover {
+    background-image: none!important;
+    background-color: var(--accent-color);
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-weight: 400;
+    width: 400px;
+    text-transform: capitalize;
+    transition: background-color .2s;
+    z-index: 2;
+    animation: message_bar_extend 500ms ease;
+}
+@keyframes message_bar_extend {
+    0% {
+        width: 30px;
+    }
+    100% {
+        width: 400px;   
+    }
+}
+
+.chat .new-messages-bar button:last-child {
+    display: none;
+    color: #e0e0e0;
+}
 
 
 
@@ -828,17 +897,18 @@ body,
   
 .divider-3gKybi:not(.red-1YQ4s7) span {
     position: absolute;
-    background-color: #444444!important;
+    background-color: #181818;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAEtJREFUeAHt1qEOQCEMQ1H2/z/NPBNFNCT0HrPkiSteKljArJrw3RCoCz8HlJ9oDgi8gcYOBEmBaufNCLAD4QYEZuwgIsAOeB+8B2zC4APRkGTojQAAAABJRU5ErkJggg==)!important;
     background-repeat: no-repeat!important;
-    background-position: 3px 3px!important;
+    background-position: 10px 5px!important;
     background-size: 20px!important;
     border-radius: 3px!important;
     color: white!important;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
     padding: 5px 10px;
     padding-left: 30px!important;
+    bottom: -35px!important;
     width: auto;
 }
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
@@ -849,7 +919,7 @@ body,
     -webkit-box-align: center;
     align-items: center;
     background: #333333!important;
-    margin-bottom: 20px!important;
+    margin-bottom: 25px!important;
     cursor: default;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -857,7 +927,6 @@ body,
     height: 0;
     margin-left: 20px;
     margin-right: 6px;
-    margin-top: 28px;
     position: relative;
     z-index: 0;
 }
@@ -865,17 +934,20 @@ body,
 
 /* Chat divider red */
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
-    background-color: var(--notification-color)!important;
-    color: #f04747;
-    line-height: 16px;
-    text-transform: none;
+    position: absolute;
+    background-color: #181818;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAABHVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+RDpdcAAAAXnRSTlMAAQIEBwkKHh8hJCUoKSorLC0uLzAxNjg8PT9AQkNERUdITVBRZWhtboSHioyNjo+QkZKVl5icuLm8v8DBwsPExcbHyMrMztDT1dfc3t/h4uPo6uvt7u/z9vj5+vz9NwW8EAAAAVpJREFUeAHt1+l+0kAUBfAjRgUDogLiDu6KigqCIArdF0pboATKkvP+j9F+nEAmmfsj/cb/DWZ+M/eegw2tB5/rnYFzbdCpf0pBKFvu0+P8ewbGYu936WPnXQxG8ofUOHiCcFbFpZb700KIxD4D7cUR6JnDEM5TBHg9YajJK2gVZzRw+RwayTGNjGz4untMQ0d34OcbjZXgI+/S2CKHFbe2KfAPK95S5A2WtSnSwpIchR7Dq0yhr/A6o1APHkmK2VB9pNgHqGoUq0L1l2JNqHoUO4FqRLELqGYUm0I1p9g02iOcrnuJTYo1oKpSrBLtU75PsXi03xklCn2BV4pCdtRDFQWKvIh+sSA9p7GpfRPLFbfbNNSMwVdiSCODe9B4NKYBJ71myHqJAA/7DNFPRx80vaxfC2otflgIl/1PjVYGZopb9NEprF84hJWn1ugOXXfY/fM7tPJsbFwBbioIeKbCaIAAAAAASUVORK5CYII=)!important;
     background-repeat: no-repeat!important;
-    background-position: 5px 5px!important;
+    background-position: 12px 10px!important;
     background-size: 15px!important;
-    background-color: var(--notification-color)!important;
+    border-radius: 3px!important;
     color: white!important;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 20px;
     padding: 5px 10px;
+    padding-left: 30px!important;
+    bottom: -35px!important;
     width: auto;
 }
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
@@ -1107,15 +1179,12 @@ div.avatar-large {
 
 
 /* Message bubbles */
-.app {
-    --comment-opacity: 0.5;
-}
 .message-1PNnaP {
     margin-bottom: 3px;
 }
 .containerCozy-jafyvG,
 .containerCompact-3V0ioj {
-    background: rgba(0,0,0, var(--comment-opacity)) !important;
+    background: #181818!important;
     border: 0;
     padding-left: 0px;
     padding-top: 15px;
@@ -2080,11 +2149,16 @@ div.avatar-large {
 
 
 
-/*=============================================
-=            Textarea input bar               =
-=============================================*/
-
-
+/*
+ 
+   _____         _                       
+  |_   _|____  _| |_ __ _ _ __ ___  __ _ 
+    | |/ _ \ \/ / __/ _` | '__/ _ \/ _` |
+    | |  __/>  <| || (_| | | |  __/ (_| |
+    |_|\___/_/\_\\__\__,_|_|  \___|\__,_|
+    Textarea
+ 
+*/
 
 .theme-dark .channel-textarea-inner, .theme-dark .channel-textarea.has-results .channel-textarea-inner {
     border-color: transparent;
@@ -2161,25 +2235,20 @@ div.avatar-large {
     transition: all 100ms ease;
     max-height: 300px!important;
 }
-.textArea-2Spzkt, input[type="text"], .search-bar.search-bar-light input {
-	background-image: linear-gradient(var(--accent-color),var(--accent-color)),linear-gradient(#666,#666);
-    background-size: 0 1px,100% 2px;
+.textArea-2Spzkt, input[type="text"] {
+    background-image: linear-gradient(var(--accent-color), var(--accent-color)), linear-gradient(#666, #666);
+    background-size: 0 2px,100% 2px;
     background-repeat: no-repeat;
-    background-position: center bottom,center calc(100% - 0px);
-    background-color: transparent;
-    transition: background .15s ease-out;
-}
-
-.textArea-2Spzkt:focus, input[type="text"]:focus, .search-bar.search-bar-light input:focus {
-	background-image: linear-gradient(var(--accent-color),var(--accent-color)),linear-gradient(#666,#666);
+    background-position: center bottom, center calc(100% - 0px);
+  }
+  .textArea-2Spzkt:focus, input[type="text"]:focus {
+    background-image: linear-gradient(var(--accent-color), var(--accent-color)), linear-gradient(#666, #666);
     background-size: 100% 2px,100% 2px;
-    background-repeat: no-repeat;
-    background-position: center bottom,center calc(100% - 0px);
-    background-color: transparent;
-    transition: background .15s ease-out;
-}
-
-.textArea-2Spzkt, .textArea-2Spzkt:focus {transition-duration: .2s;}
+    transition-duration: .15s; 
+  }
+  .textArea-2Spzkt, .textArea-2Spzkt:focus {
+    transition-duration: .3s; 
+  }
 
 
 
@@ -2271,12 +2340,12 @@ div.avatar-large {
 .typing-2GQL18 {
     background-color: transparent!important;
     /*bottom: 100%;*/
-    padding-left: 0px;
+    padding-left: 10px;
     padding-right: 10px;
     padding-top: 4px;
     padding-bottom: 10px;
     margin-left: -20px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     width: auto;
     height: 10px;
     border-radius: 3px;
@@ -2846,7 +2915,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     width: 18px;
 }
 
-.root-SR8cQa .maskProfile-1ObLFT:hover, .root-SR8cQa .mask-3OgeRz:hover {
+/* .root-SR8cQa .maskProfile-1ObLFT:hover, .root-SR8cQa .mask-3OgeRz:hover {
     cursor: zoom-in;
 }
 .root-SR8cQa .maskProfile-1ObLFT, .root-SR8cQa .mask-3OgeRz {
@@ -2859,7 +2928,7 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
     mask: none !important;
     cursor: zoom-out;
     border: 120px solid rgba(0, 0, 0, 0.507);
-}
+} */
 
   
   /* Friend Request/Message button */
@@ -3422,7 +3491,7 @@ user-select: none;
 /* Bottom */
 .container-2Thooq,
 .account  {
-    background: #080808;
+    background: #080808!important;
     border-radius: 3px!important;
 }
 .channels-Ie2l6A.vertical-V37hAW {
@@ -4187,11 +4256,12 @@ body:active .container-3nXdBP:not(:active) {
     background-color: #161616;
 }
 
-/* friends header */
+/* Header bar */
 .theme-dark .headerBar-UHpsPw {
     -webkit-box-shadow: none;
     background: #0f0f0f;
     box-shadow: none;
+    width: 98.9%;
 }
 
 #friends .friends-table {
@@ -5781,9 +5851,16 @@ form.modal-content.form.alert.has-icon {
 
 
 
-/*=============================================
-=                Context menu                 =
-=============================================*/
+/*
+ 
+    ____            _            _                                
+   / ___|___  _ __ | |_ _____  _| |_   _ __ ___   ___ _ __  _   _ 
+  | |   / _ \| '_ \| __/ _ \ \/ / __| | '_ ` _ \ / _ \ '_ \| | | |
+  | |__| (_) | | | | ||  __/>  <| |_  | | | | | |  __/ | | | |_| |
+   \____\___/|_| |_|\__\___/_/\_\\__| |_| |_| |_|\___|_| |_|\__,_|
+    Context menu                                                             
+
+*/
 
 /* Menu */
 .contextMenu-HLZMGh {
@@ -5794,7 +5871,7 @@ form.modal-content.form.alert.has-icon {
 	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2) !important;
     z-index: 9999999!important;
     transform-origin: top !important;
-    animation: opacity 200ms ease, context_open 100ms cubic-bezier(.5, 0, 0, 1);
+    animation: opacity 100ms ease, context_open 90ms cubic-bezier(.5, 0, 0, 1);
     max-width: 430px;
 }
 @keyframes context_open {
@@ -5833,15 +5910,15 @@ form.modal-content.form.alert.has-icon {
     cursor: default;
     margin: 0;
     padding: 10px 10px;
-    transition: all 0.2s ease!important;
+    transition: all 100ms ease!important;
 }
 .contextMenu-HLZMGh .item-1Yvehc:hover {
     background-color: #3b3b3b!important;
     color: rgba(255, 255, 255, .8);
     border-radius: 0px!important;
     border-left: 5px solid #ffffff;
-    transition: all 0.2s ease!important;
     padding-right: 12px;
+    transition: all 100ms ease!important;
 }
 .contextMenu-HLZMGh .item-1Yvehc:active {
     background-color: #5c5c5c!important;
