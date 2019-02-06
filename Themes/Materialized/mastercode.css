@@ -2361,10 +2361,6 @@ div.avatar-large {
 	top: -10px;
 	right: 15px!important;
 }
-.messages-3amgkR .bf-arrow {
-	background-color: #0B0B0B!important;
-}
-
 /* System message bubbles */
 .system-message .system-message-icon {
 	-ms-flex-negative: 0;
@@ -8483,7 +8479,6 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	margin: 30px 0 0 0!important;
 }
 .bf-toolbar .bf-arrow {
-	background-color: #121212;
 	content: "";
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAMAAAAqwkWTAAAB7FBMVEUAAACbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5vJr3ooAAAAo3RSTlMAAQIDBQYHCAkKCwwNDg8QERITFBUWFxgZGhweHyAhJScoKiwwMjQ7PD0+P0dISUpMUFFSVFZXWVpbXF1eX2BiY2VoaWpsbW5vdHV4eXp7fH1+f4WHiImKj5CSlZaan6Gjra+wsbK0tba3uLm6vL2+wcLDxMXGx8jJyszNzs/Q0dLT1NXW19jZ29zd3t/j5OXm5+vs7e7x8vP19vf4+fr7/P3+XdUJLwAAAntJREFUeAHt1/lbTFEcx/HPmJYmLdOSSslOiBYlUSiySHaShWSRRBaTiCRZZF+EZJa+/yhSt5m539Pc5dx+cV7/wPv53Oee5zkHiqIoiqL8X+KWFnsxC4pfE/mPuuG08l/01+WE2ek4Xqrw05QrTpbW+2lah3Ol6iCF60iEMzYGKdLVROc7DpZqgqTXKb+0KUicziT5Hd41uaXNbEd+qTZIYl1J8ju8m3MhRx3bkV+qC1Est2SUtrAd+aWGcTLidgrs2c525Jd2cB3enRTnO3xJwv82QqwbHljTyO8ZbygcJtbdVJmdUD1Q8JJYPiulnYLONvyR+5RYD7wwaxffCVRjwrxBQSkD5uwWdDZgUs4AsfoyZHT8ldBk90soNRFrrAxhvL3Eemi8tI9YP9chQnqPoJQJY5qJNVqCKGk+Yj3KtNP5vgY6yd02SvuJ9W0VGJ7rglIWYjlArJGVYHm6iNWfZa3zZQUEEi5aKh0k1uflEIpvJ9bjbIgdItanZZhB3HliDeVC5DCxPi7BjNxtxHqWZ67zfjFicJ8zVTpGrHeLEJP7rKhkvPN2IQxwnSLW83xEO06s4UIY4jppsNRCrFcFMMh1glgv8o2cnzdFYJj7ek9yMK3W5B6+1Eos3xxoBvnV82FOC7FWY0pckBhDeTDrCHEaoflAeve9MG8PMSqgOU06/dmwopl0vmZAkzpAUfoyYc1eihIoR5j0XorQnQyr6kMUbqwUEdLuWXsXMLaGmJsTX+rywI7qwHRnLXTSemjSpQTYUxXgOppUH024EA+7Kv3/OiVgeSdK7Ymwr2qUiH6UQSC+5kxrqQsyLGhqay6CoiiKoiiKoiia3yhn9x0nWJs1AAAAAElFTkSuQmCC);	
 	background-size: 40%;
@@ -8800,7 +8795,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 /* CharacterCounter - by Devilbro */
 #charcounter.normal {
 	position: absolute;
-	background-color: #121212;
+	background-color: #121212!important;
 	top: 0;
 	margin-top: -23px;
 	margin-bottom: 70px;
