@@ -1,11 +1,12 @@
 /* FroztySeven#9632 */
 .appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="155407912481718272"] + .statusProfile-3ynqtt {
-	background-image: url("https://steamusercontent-a.akamaihd.net/ugc/186171449025625379/CC34E4A72824337161271E31E858302AF05910F6/");
-	/* -webkit-mask: linear-gradient(to top,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)); */
+    background-image: url("https://steamusercontent-a.akamaihd.net/ugc/186171449025625379/CC34E4A72824337161271E31E858302AF05910F6/");
+    /* -webkit-mask: linear-gradient(to top,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)); */
 }
 /* Corbs#0001 */
 .appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="273169968202252289"] + .statusProfile-3ynqtt {
     background-image: url("https://i.pinimg.com/originals/ac/0b/82/ac0b8235200cfcb8120c5ff7ddeb8464.gif");
+    background-position: 0 -40px;
 }
 /* Captain Jack Sparrow#0329 */
 .appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="281465397214052352"] + .statusProfile-3ynqtt {
