@@ -20,10 +20,6 @@
 .appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="187190396789587969"] + .statusProfile-3ynqtt {
     background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-385133.png");
 }
-/* cjghost2000#3106 */
-.appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="96491366284034048"] + .statusProfile-3ynqtt {
-    background-image: url("https://i.imgur.com/EunLK87.png");
-}
 /* Morgana Chase (Winter)#0167 */
 .appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="161692463365357568"] + .statusProfile-3ynqtt {
     background-image: url("https://i.imgur.com/QG0TZfi.png");
@@ -47,6 +43,11 @@
 /* Tropical#4273 */
 .appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="254362351170617345"] + .statusProfile-3ynqtt {
     background-image: url("https://cdn.discordapp.com/attachments/474355238841745419/503667904525631518/NewBanner.png");
+}
+/* DiscordisDogshit#9493/cjghost2000 */
+.appMount-3lHmkl .root-SR8cQa .header-QKLPzZ .avatar-3EQepX .image-33JSyf[style*="446695590676398080"] + .statusProfile-3ynqtt {
+	background-image: url("https://cdn.discordapp.com/attachments/542850093452099595/551058071586078720/11db2130badf3e09cff196adccd6d2e5.gif");
+	background-position: 0 -80px;
 }
 
 
