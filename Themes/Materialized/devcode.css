@@ -1,9 +1,22 @@
+//META{"name":"Materialized","description":"Make your Discord more pretty with Material design. Auto updates","author":"FroztySeven","version":"Auto"}*//{}
+
+/*
+-----------------------------------------------------------------------------------------------------------------
+ ~ Materialized ~
+ A custom dark theme by FroztySeven
+
+ Theme Status: Early release version...
+ Source: https://github.com/FroztySeven/
+-----------------------------------------------------------------------------------------------------------------
+*/
+
+
 /* Imports */
 @import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_banners.css);
 
 
 :root {
-	--version: "Materialized Beta v1.0";
+	--version: "Materialized Dev v1.1";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -12,6 +25,16 @@
 
 
 /* BetterDiscord */
+.bd-toasts {
+	position: fixed;
+	display: flex;
+	top: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	pointer-events: none;
+	z-index: 4000;
+}
 .toast {
 	cursor: pointer!important;
 }
@@ -19,7 +42,34 @@
 	background-color: var(--accent-color)!important;
 	animation: 500ms toastpulse ease!important;
 }
-
+.bd-toast.icon {
+	padding-left: 30px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 6px 50%;
+}
+.bd-toast.toast-success {
+	background-color: #175f3f;
+}
+.bd-toast.closing {
+	transform: translateY(10px);
+}
+.bd-toast {
+	animation: bd-toast-up 200ms ease;
+	transform: translateY(10px);
+	background: #36393f;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+	font-weight: 500;
+	color: #fff;
+	user-select: text;
+	font-size: 14px;
+	opacity: 1;
+	margin-top: 10px;
+	pointer-events: none;
+	user-select: none;
+}
 
 /* Title Bar */
 .titleBar-AC4pGV {
@@ -1575,8 +1625,7 @@ theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1Ffu
 
 
 /* Text channel top title wrapper */
-.titleWrapper-1l0xT9>.title-3qD0b-,
-.headerBar-UHpsPw {
+.theme-dark .container-1r6BKw {
 	background-color: #0f0f0f;
 	border-radius: 3px;
 	margin-left: -10px;
@@ -1585,6 +1634,21 @@ theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1Ffu
 	margin-bottom: 8px;
 	padding-left: 20px;
 	padding-right: 10px;
+}
+.theme-dark .children-19S4PO:after {
+    width: 1px;
+    height: 24px;
+    margin: 0 8px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	background: #40444b;
+	margin-left: -10px;
+	margin-right: 0px;
+}
+.theme-dark .topic-TCb_qw {
+	color: #b9bbbe;
+	padding-right: 20px;
 }
 /* Header bar
 .theme-dark .headerBar-UHpsPw {
@@ -5356,18 +5420,20 @@ user-select: none;
 	margin-bottom: 50px;
 	margin-left: 0px;
 }
-.accountDetails-3k9g4n .username {
+.container-2Thooq .username-u0EL4I {
 	position: absolute;
 	max-width: 190px; 
+	bottom: 60px;
 	min-width: 190px;
 	font-weight: 500;
 }
-.accountDetails-3k9g4n .discriminator {
+.container-2Thooq .discriminator-3W31ZY {
 	position: absolute;
 	display: block;
 	bottom: 47px;
+	color: #8e9297;
 	font-size: 10px;
-	opacity: .4;
+	opacity: 1;
 }
 
 .container-2Thooq .horizontal-2EEEnY {
@@ -8018,22 +8084,32 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	display: none;
 }
 
-.guildsWrapper-5TJh6A {
+.wrapper-1Rf91z {
 	background: #0F0F0F;
-	width: 72px;
+	width: 90px;
+	border-radius: 3px;
+}
+.wrapper-1Rf91z .scrollerWrap-2lJEkd {
+	background-color: #080808;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-bottom: 10px;
+	border-radius: 3px;
 }
 
-.guildsWrapper-5TJh6A .scroller-wrap {
-	width: 160px;
+.wrapper-1Rf91z .scroller-wrap {
 	background: #0F0F0F;
 }
-.guildsWrapper-5TJh6A .scroller-wrap:hover {
+.wrapper-1Rf91z .scroller-wrap:hover {
 	width: 77px;
 	background: #0F0F0F;
 }
+.scrollerWrap-1IAIlv {
+	width: 100px;
+}
   
-/* Guild spesific */
-.guildsWrapper-5TJh6A .guilds-1q_RqH {
+/* Guild spesific
+.wrapper-1Rf91z .guilds-1q_RqH {
 	padding-left: 10px;
 	align-items: center;
 	background-color: #0F0F0F;
@@ -8042,26 +8118,34 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	height: calc(101.8% - 185px);
 	border-top: 2px solid #181818;
 	border-bottom: 2px solid #181818;
+} */
+.container-2td-dC {
+		height: 50px;
+		left: 5px;
+		margin-bottom: 18px;
+		position: relative;
+		width: 50px;
 }
-/* .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ+.guild-1EfMGQ {
+
+/* .wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ+.guild-1EfMGQ {
 	display: block;
 	transition: all 0.2s ease !important;
 } */
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ {
 	display: block;
 	transition: all 0.2s ease !important;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 {
 	border-radius: 100%!important;
 	opacity: 1;
 	transition: none;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:hover {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ:hover {
 	background-color: #646464;
 	border-radius: 3%!important;
 	box-shadow: 0 0px 1px 2px #646464;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq {
 	background-color: var(--accent-color);
 	border-radius: 100%!important;
 	animation: guildborder 200ms ease;
@@ -8075,12 +8159,12 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 		box-shadow: 0 0 0px 3px var(--accent-color);
 	}
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:hover {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:hover {
 	background-color: var(--accent-color);
 	border-radius: 3%!important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
 	-webkit-transition: height .25s ease-in-out,margin-top .25s ease-in-out;
 	background: none;
 	border-radius: 100px;
@@ -8090,11 +8174,11 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 
 /* Guild top graphical background glitch fix */
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq {
+.wrapper-1Rf91z .guilds-1q_RqH .guildIcon-CT-ZDq {
 	border-radius: 100%;
 }
 
-.guildsWrapper-5TJh6A .dms-rcsEnV .guild-1EfMGQ:hover {
+.wrapper-1Rf91z .dms-rcsEnV .guild-1EfMGQ:hover {
 	background-color: var(--notification-color);
 	box-shadow: 0px 0px 30px 3px var(--notification-color);
 	width: 50px;
@@ -8102,8 +8186,8 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	transition: all 200ms ease!important;
 }
 
-/* Guild unread indicators */
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
+/* Guild unread indicators
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
 	font-size: 0;
 	background-color: white;
 	border-radius: 100px;
@@ -8122,14 +8206,67 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0);
   }
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq.unread-qLkInr:before {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq.unread-qLkInr:before {
 	background: var(--accent-color);
 	height: 10px;
 	margin-top: -25px;
+} */
+
+/* Unread */
+.theme-dark .unread-2OHH1w:before {
+	background: var(--nox-notification-color);
 }
+.unread-2OHH1w:before {
+	border-radius: 50%;
+	height: 53px;
+	width: 55px;
+	top: 5px;
+	left: -2px;
+	box-shadow: 0 0 0 3px rgb(248, 248, 248);
+	animation: pulse 500ms ease;
+}
+.unread-2OHH1w:before:hover {
+	animation: none;
+}
+	/* Pulse Animation */
+	@keyframes pulse {
+			0% {
+					box-shadow: 0 0 0 0 rgba(242, 242, 242, 0.4);
+			}
+			70% {
+					box-shadow: 0 0 0 10px rgba(242, 242, 242, 0);
+			}
+			100% {
+					box-shadow: 0 0 0 2px rgb(248, 248, 248);
+			}
+	}
+/* Selected Server */
+.theme-dark .selected-nT-gM3:before {
+	background: #212121;
+}
+.selected-nT-gM3 {
+	box-shadow: 0 0 0 3px var(--accent-color);
+	border-radius: 100%;
+	left: 0;
+	margin-left: 5px;
+	transition: height .25s cubic-bezier(.4,0,0,1),margin-top .25s cubic-bezier(.4,0,0,1);
+	animation: pulse 500ms ease;
+}
+.selected-nT-gM3:before {
+	display: none;
+}
+.guildIcon-VlWW86 {
+	border-radius: 100%;
+}
+.theme-dark .wrapper-2lTRaf {
+	/* background: #2f3136; */
+	background: transparent;
+}
+	
+
   
 /* Guild friends icon */
-.guildsWrapper-5TJh6A .guilds-1q_RqH > div.guild-1EfMGQ:first-of-type {
+.wrapper-1Rf91z .guilds-1q_RqH > div.guild-1EfMGQ:first-of-type {
 	position: absolute!important;
 	width: 51px;
 	top: 5px;
@@ -8139,15 +8276,15 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	z-index: 10;
 	transition: 200ms ease;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH > div.guild-1EfMGQ:first-of-type .guildInner-3DSoA4 {
+.wrapper-1Rf91z .guilds-1q_RqH > div.guild-1EfMGQ:first-of-type .guildInner-3DSoA4 {
 	background-color: transparent!important;
 	transition: 200ms ease;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH > div.guild-1EfMGQ:first-of-type:hover .guildInner-3DSoA4:hover {
+.wrapper-1Rf91z .guilds-1q_RqH > div.guild-1EfMGQ:first-of-type:hover .guildInner-3DSoA4:hover {
 	background-color: transparent!important;
 	transition: 200ms ease;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ {
+.wrapper-1Rf91z .guilds-1q_RqH .homeIcon-tEMBK1 {
 	position: static!important;
 	background-color: transparent!important;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAANlBMVEUAAAD////////////////////////////////////////////////////////////////////xY8b8AAAAEXRSTlMALC9TWFlgZ2hpcXJz+vz9/lEZMlQAAADCSURBVHgB7dRRC4IwFIbhY9PScub5/3+2HBS9MKhv0o2c78Kb8T7gBO3/iw39vn5c7+d9vft6ae+HxZ9b+l09Bb1fymNofX/PKWXHPai9GQW9fwlja09B7ynoPYXmnoLeU9B7CnovChN7WWCvC+x1gb0usNcF9qrAXhDYO/u64Jsw1Xu3H+YQ0AtAEdhrAIWu/HoJOMcTL0Fn7922+1eA7Vtc7WNzTqYAlvJs2MkkoARcDfh+EkAAARwX4OonhwRisQdNpDQ+nOBMRQAAAABJRU5ErkJggg==);
@@ -8158,19 +8295,19 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	top: 20px;
 	width: 55px!important;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ g {
+.wrapper-1Rf91z .guilds-1q_RqH .homeIcon-tEMBK1 g {
 	display: none;
 }
 .guilds-1q_RqH .guildInner-3DSoA4.selected-ML3OIq {
 	background-color: var(--accent-color)!important;
 }
-.guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ:hover {
+.wrapper-1Rf91z .guilds-1q_RqH .homeIcon-tEMBK1:hover {
 	background-color: var(--accent-color);
 }
 
 
 /* Guild friends online label */
-.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM {
+.wrapper-1Rf91z .guilds-1q_RqH .friendsOnline-_wi_fM {
 	position: absolute;
 	color: white;
 	cursor: default;
@@ -8186,7 +8323,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	word-wrap: normal;
 }
 /* Guild dms */
-.guildsWrapper-5TJh6A .dms-rcsEnV .guild-1EfMGQ {
+.wrapper-1Rf91z .dms-rcsEnV .guild-1EfMGQ {
 	display: block;
 	margin-bottom: 15px;
 	margin-top: 10px;
@@ -8195,10 +8332,10 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	border-radius: 100px;
 	transition: all 200ms ease!important;
 }
-.guildsWrapper-5TJh6A .dms-rcsEnV:empty + .guildSeparator-1X4GQ1 {
+.wrapper-1Rf91z .dms-rcsEnV:empty + .guildSeparator-1X4GQ1 {
 	display: none;
 }
-.guildsWrapper-5TJh6A .guildSeparator-1X4GQ1:after {
+.wrapper-1Rf91z .guildSeparator-1X4GQ1:after {
 	background-color: var(--notification-color);
 	content: " ";
 	height: 2px;
@@ -8217,7 +8354,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 
 /* Guild mention badge */
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .badge-1GsMF2 {
+.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ .badge-1GsMF2 {
 	background-color: var(--notification-color);
 	border-radius: 100px;
 	font-size: 12px;
@@ -8227,7 +8364,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 
   
 /* Guild add/join button */
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK {
+.wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK {
 	border: 0px;
 	background: transparent;
 	transition: all 200ms ease!important;
@@ -8239,13 +8376,13 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	color: transparent;
 	padding-top: -40px;
 }
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover {
+.wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK:hover {
 	background-position: 50%!important;
 	background-color: transparent;
 	box-shadow: none;
 }
 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK::after {
+.wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK::after {
 	background: black;
 	transition: all 200ms ease!important;
 	transform: translate(0%, -65%);
@@ -8263,11 +8400,11 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .25), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px var(--white1) inset;
 	line-height: 53px;
 }	 
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:hover:after {
+.wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK:hover:after {
 	background: #272727;
 	transform: rotate(90deg) translate(-32px);
 }	   
-.guildsWrapper-5TJh6A .guild-1EfMGQ.guildsAdd-21_IdK:active:after {
+.wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK:active:after {
 	background: var(--accent-color)!important;
 }	 
 
@@ -8295,6 +8432,22 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 =			Plugin & Compability			  =
 =============================================*/
 
+/* PluginRepo - by DevilBro */
+.app-19_DXt > .repo-loadingwrapper {
+	position: absolute;
+	margin: 5px;
+	padding-top: 8px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	background-color: black;
+	border-radius: 3px;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	animation: none;
+	content: 'Loading';
+	zoom: 0.7;
+}
 
 /* BetterDiscord notification bar */
 .flexChild-faoVW3 {
@@ -8563,13 +8716,13 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	left: 65px!important;
 	height: calc(720px - -80px);
 }
-.guildsWrapper-5TJh6A.folderopen {
+.wrapper-1Rf91z.folderopen {
 	overflow: hidden!important;
 	background: #0F0F0F;
 	max-width: 140px!important;
 	animation: SFwrapperOpen 0!important;
 }
-.guildsWrapper-5TJh6A.folderclosing {
+.wrapper-1Rf91z.folderclosing {
 	animation: SFwrapperClosing 0!important;
 }
 .folderopen {
