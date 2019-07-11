@@ -5369,7 +5369,7 @@ user-select: none;
 */
 
 /* Bottom */
-.container-2Thooq,
+.container-3baos1,
 .account  {
 	background: #080808!important;
 	border-radius: 3px!important;
@@ -5377,7 +5377,7 @@ user-select: none;
 .channels-Ie2l6A.vertical-V37hAW {
 	background-color: #232323;
 }
-.container-2Thooq {
+.container-3baos1 {
 	-ms-flex-align: center;
 	-ms-flex-negative: 0;
 	-webkit-box-align: center;
@@ -5396,11 +5396,11 @@ user-select: none;
 	margin-bottom: 10px;
 	transition: all 200ms ease!important;
 }
-.container-2Thooq .status,
+.container-3baos1 .status,
 .account .status {
 	transition: all 200ms ease!important;
 }
-.container-2Thooq .avatar-3JE4B3 {
+.container-3baos1 .avatarSmall-3ACRaI {
 	margin-bottom: 30px;
 	left: 0px;
 	background-repeat: no-repeat;
@@ -5408,10 +5408,10 @@ user-select: none;
 	transition: all 0.2s ease !important;
 	z-index: 99;
 }
-.container-2Thooq .avatar-3JE4B3:hover {
+.container-3baos1 .avatarSmall-3ACRaI:hover {
 	filter: brightness(1.5);
 }
-.container-2Thooq .avatar-3JE4B3:active {
+.container-3baos1 .avatarSmall-3ACRaI:active {
 	animation: 800ms avatarwrapper_pulse cubic-bezier(.2,0,0,1);
 }
 .accountDetails-3k9g4n {
@@ -5420,14 +5420,14 @@ user-select: none;
 	margin-bottom: 50px;
 	margin-left: 0px;
 }
-.container-2Thooq .username-u0EL4I {
+.container-3baos1 .username-2BIRiC {
 	position: absolute;
 	max-width: 190px; 
 	bottom: 60px;
 	min-width: 190px;
 	font-weight: 500;
 }
-.container-2Thooq .discriminator-3W31ZY {
+.container-3baos1 .discriminator-3-Lf_x {
 	position: absolute;
 	display: block;
 	bottom: 47px;
@@ -5436,9 +5436,9 @@ user-select: none;
 	opacity: 1;
 }
 
-.container-2Thooq .horizontal-2EEEnY {
+.container-3baos1 .horizontal-2EEEnY {
 	position: relative;
-	bottom: -22px;
+	bottom: -20px;
 	/* left: 3px;
 	margin-left: 2px; */
 }
