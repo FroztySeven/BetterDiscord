@@ -16,7 +16,7 @@
 
 
 :root {
-	--version: "Materialized Dev v1.1";
+	--version: "Materialized Dev v1.1 — (July 11, 2019 Build)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -179,7 +179,7 @@
 
 
 .wordmark-2iDDfm::before {
-	content: "" var(--version);
+	content: var(--version);
 	color: #cac9c9;
 	font-size: 14px;
 	font-weight: 600;
