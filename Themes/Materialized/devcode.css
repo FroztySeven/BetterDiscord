@@ -16,7 +16,7 @@
 
 
 :root {
-	--version: "Materialized Dev v1.1 — (July 11, 2019 Build)";
+	--version: "Materialized Dev v1.1 — (July 12, 2019 Build)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -6016,19 +6016,17 @@ body:active .container-3nXdBP:not(:active) {
 	/* margin-bottom: 20px; */
 	margin-left: -10px;
 }
-.menu-Sp6bN1 {
-	padding-left: 30px;
-	left: -30px;
+.animatorTop-2Y7x2r .menu-Sp6bN1 {
+	left: -9px;
 	border-radius: 0;
 	align-items: center;
 	justify-content: center;
 	position: relative;
 	pointer-events: inherit;
-	width: 100%;
-	padding-right: 33px;
-	/* z-index: 1000000;
+	width: 233px;
+	/* z-index: 1000000; */
 	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0); */
+	transform: translate3d(0,0,0);
 }
 
 @keyframes statuspicker-status {
