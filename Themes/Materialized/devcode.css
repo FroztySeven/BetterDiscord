@@ -16,7 +16,7 @@
 
 
 :root {
-	--version: "Materialized Dev v1.1 — (July 12, 2019 Build)";
+	--version: "Materialized Dev v1.1 — (July 16, 2019 Build)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -7560,7 +7560,7 @@ form.modal-content.form.alert.has-icon {
 	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2) !important;
 	z-index: 9999999!important;
 	transform-origin: top !important;
-	animation: opacity 100ms ease, context_open 90ms cubic-bezier(.5, 0, 0, 1);
+	animation: opacity 50ms ease, context_open 90ms cubic-bezier(.5, 0, 0, 1);
 	max-width: 430px;
 }
 @keyframes context_open {
@@ -7605,7 +7605,7 @@ form.modal-content.form.alert.has-icon {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABmJLR0QA/wD/AP+gvaeTAAACDElEQVRYCe2Zu0oDURRFo+hHifkEO19ljI/CJ4oa31qIIIqIiAiCYmth4YfY2KSX/ICIIGgyriMKKQbZAzI5JyTsxUjYzpx1rzEJUyh0Hm2+AkmSFOEJarAQWheBAXiH5hyHlMIgTYanv3MUSoqR++EN/spGGCksHkHJWggpTKqgpuJeCpMhqIOalQhSI9h8gJqdCFKlJEmy7NR2BKlyRqmtCFKTSDVAzWYEqQXV5qfn/32KQRchS9Yj7NRyFiO6IaR2GTRL/H+iwGYf1DQo+v/qwZAHoMak5iO8pg5VI3omNedaiiG74BzUmNRsBKkL1YieSc1EkLpkWDVhpK5UI3omNe19p3oY9B7UfFIc9C7Vy5APoOZZFepWi//ca3C+V1DTpRZz77El3XALavz+yWFgr587jmrsK/5g7quuXBCDrDtjMkPKuXPv/MjccFTjXuZaNaFnMsO5r7pyQYazz3FZ3khNZkQ5d0s6CJ2BGpMZbcmgykWxOAU19q/ZtcyJakKvDiVlkVrSYbhjUGMyYwWvDyz2Ev1hMmWvLgU8tkGNyYx7ltlUTei5l1lnSDUmM+F5Z1ZVE3omM+lZZpYhG6DEelOeZdrrliRbUgU1Fbc78zsYJo+gZO33d1wfMemHN/gr/m9oNa8yJn3wAmlZbO6G+RmTNKmlMAJpgyJVhCeogf97PGkSnedyXIEv6wyaaGBW/mIAAAAASUVORK5CYII=);
 	background-repeat: no-repeat;
 	background-position: 93%;
-	background-size: 15px;
+	background-size: 10px;
 	transition: 50ms ease!important;
 }
 .contextMenu-HLZMGh .itemSubMenu-1vN_Yn:hover {
@@ -8116,11 +8116,24 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	background: #0F0F0F;
 }
 .wrapper-1Rf91z .scroller-wrap:hover {
-	width: 77px;
+	width: 80px;
 	background: #0F0F0F;
 }
 .scrollerWrap-1IAIlv {
-	width: 100px;
+	width: 80px;
+}
+/* Guild icon positions */
+.listItem-2P_4kh {
+    position: relative;
+    margin: 5px 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 75px;
+    contain: layout style;
 }
   
 /* Guild spesific
@@ -8227,6 +8240,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	margin-top: -25px;
 } */
 
+
 /* Unread */
 .theme-dark .unread-2OHH1w:before {
 	background: var(--nox-notification-color);
@@ -8245,17 +8259,18 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 	/* Pulse Animation */
 	@keyframes pulse {
-			0% {
-					box-shadow: 0 0 0 0 rgba(242, 242, 242, 0.4);
-			}
-			70% {
-					box-shadow: 0 0 0 10px rgba(242, 242, 242, 0);
-			}
-			100% {
-					box-shadow: 0 0 0 2px rgb(248, 248, 248);
-			}
+		0% {
+				box-shadow: 0 0 0 0 rgba(242, 242, 242, 0.4);
+		}
+		70% {
+				box-shadow: 0 0 0 10px rgba(242, 242, 242, 0);
+		}
+		100% {
+				box-shadow: 0 0 0 2px rgb(248, 248, 248);
+		}
 	}
-/* Selected Server */
+
+/* Selected Server
 .theme-dark .selected-nT-gM3:before {
 	background: #212121;
 }
@@ -8276,7 +8291,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 .theme-dark .wrapper-2lTRaf {
 	/* background: #2f3136; */
 	background: transparent;
-}
+} */
 	
 
   
@@ -8310,18 +8325,29 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	top: 20px;
 	width: 55px!important;
 }
-.wrapper-1Rf91z .guilds-1q_RqH .homeIcon-tEMBK1 g {
-	display: none;
+
+
+/* DM/Home icon */
+#app-mount svg.homeIcon-tEMBK1 {
+    color: transparent;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAANlBMVEUAAAD////////////////////////////////////////////////////////////////////xY8b8AAAAEXRSTlMALC9TWFlgZ2hpcXJz+vz9/lEZMlQAAADCSURBVHgB7dRRC4IwFIbhY9PScub5/3+2HBS9MKhv0o2c78Kb8T7gBO3/iw39vn5c7+d9vft6ae+HxZ9b+l09Bb1fymNofX/PKWXHPai9GQW9fwlja09B7ynoPYXmnoLeU9B7CnovChN7WWCvC+x1gb0usNcF9qrAXhDYO/u64Jsw1Xu3H+YQ0AtAEdhrAIWu/HoJOMcTL0Fn7922+1eA7Vtc7WNzTqYAlvJs2MkkoARcDfh+EkAAARwX4OonhwRisQdNpDQ+nOBMRQAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 50%;
+    height: 100%;
+	width: 100%;
 }
+
 .guilds-1q_RqH .guildInner-3DSoA4.selected-ML3OIq {
 	background-color: var(--accent-color)!important;
 }
-.wrapper-1Rf91z .guilds-1q_RqH .homeIcon-tEMBK1:hover {
+#app-mount svg.homeIcon-tEMBK1:hover {
 	background-color: var(--accent-color);
+	transition: 200ms ease;
 }
 
 
-/* Guild friends online label */
+/* Guild friends online label
 .wrapper-1Rf91z .guilds-1q_RqH .friendsOnline-_wi_fM {
 	position: absolute;
 	color: white;
@@ -8336,8 +8362,8 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	white-space: nowrap;
 	width: 50px;
 	word-wrap: normal;
-}
-/* Guild dms */
+} */
+/* Guild dms
 .wrapper-1Rf91z .dms-rcsEnV .guild-1EfMGQ {
 	display: block;
 	margin-bottom: 15px;
@@ -8366,19 +8392,36 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	100% {
 		width: 50px;
 	}
-}
+} */
 
 /* Guild mention badge */
-.wrapper-1Rf91z .guilds-1q_RqH .guild-1EfMGQ .badge-1GsMF2 {
-	background-color: var(--notification-color);
+.numberBadge-2s8kKX  {
+	background-color: var(--notification-color)!important;
 	border-radius: 100px;
-	font-size: 12px;
+	font-size: 12px!important;
 	text-align: center;
 	transform: translate(-0px, 0px)!important;
 }
+.badgeWrapper-3e8pMZ {
+    top: calc((100% - 54px) / 2);
+    left: calc((100% - 54px) / 2);
+    width: 54px;
+    height: 54px;
+}
+.wrapper-25eVIn mask {
+	display: none;	
+
+}
+.svg-1X37T1, .wrapper-25eVIn {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 48px;
+	height: 48px;
+	border-radius: 100px!important;
+}
 
   
-/* Guild add/join button */
+/* Guild add/join button
 .wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK {
 	border: 0px;
 	background: transparent;
@@ -8421,19 +8464,19 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }	   
 .wrapper-1Rf91z .guild-1EfMGQ.guildsAdd-21_IdK:active:after {
 	background: var(--accent-color)!important;
-}	 
+}	  */
 
 
 /* BetterDiscord public Button */
 
-#bd-pub-button {
+/* #bd-pub-button {
 	content: 'Public'!important;
 	background-color: #0F0F0F;
 }
 #bd-pub-li:hover {
 	background-color: black;
 	opacity: 1;
-}
+} */
 
 
 
