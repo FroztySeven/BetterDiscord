@@ -12,11 +12,11 @@
 
 
 /* Imports */
-@import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_banners.css);
+/* @import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_banners.css); */
 
 
 :root {
-	--version: "Materialized Dev v1.1 — (July 21, 2019 Build)";
+	--version: "Materialized Dev v1.1 — (Aug 22, 2019 Build)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -4480,6 +4480,8 @@ body:active .popout.popout-right.no-arrow[style*="visibility: visible;"]:not(:ac
 	z-index: -1;
 }
 
+
+
 /* Online status bars */
 .root-SR8cQa .statusProfile-3ynqtt.online-2S838R {
 	box-shadow: inset 0 -3px 0px 0px rgb(67, 181, 129);
@@ -5432,7 +5434,7 @@ user-select: none;
 .account .status {
 	transition: all 200ms ease!important;
 }
-.container-3baos1 .avatarSmall-3ACRaI {
+.container-3baos1 .avatar-SmRMf2 {
 	margin-bottom: 30px;
 	left: 0px;
 	background-repeat: no-repeat;
@@ -5440,10 +5442,10 @@ user-select: none;
 	transition: all 0.2s ease !important;
 	z-index: 99;
 }
-.container-3baos1 .avatarSmall-3ACRaI:hover {
+.container-3baos1 .avatar-SmRMf2:hover {
 	filter: brightness(1.5);
 }
-.container-3baos1 .avatarSmall-3ACRaI:active {
+.container-3baos1 .avatar-SmRMf2:active {
 	animation: 800ms avatarwrapper_pulse cubic-bezier(.2,0,0,1);
 }
 .accountDetails-3k9g4n {
