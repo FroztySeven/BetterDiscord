@@ -16,7 +16,7 @@
 
 
 :root {
-	--version: "Materialized Dev v1.1 — (Aug 22, 2019 Build)";
+	--version: "Materialized Dev v1.1 — (Aug 31, 2019 Build)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -5843,6 +5843,38 @@ body:active .container-3nXdBP:not(:active) {
 
 #rtc-connection-popout hr {
 	border: 1px solid #1c1c1c;
+}
+
+/* Discord gameplay streaming popout */
+.content-N9xlZF {
+    background: var(--accent-color);
+    position: relative;
+    text-align: center;
+    padding: 16px;
+    max-width: 210px;
+    border-radius: 8px;
+}
+
+.pointer-2Cnz1N {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: var(--accent-color);
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+}
+.panel-VoWSbJ {
+	background-color: #080808!important;
+	border-radius: 3px;
+	padding-left: 15px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border: none;
 }
 
 
