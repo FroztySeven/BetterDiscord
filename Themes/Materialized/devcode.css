@@ -8571,6 +8571,11 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
     width: 54px;
     height: 54px;
 }
+*/
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb, .theme-light .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+	display: none;
+}
+/*
 .wrapper-25eVIn mask {
 	display: none;
 } */
