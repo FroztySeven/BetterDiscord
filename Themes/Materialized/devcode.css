@@ -1361,11 +1361,12 @@ body,
   
 
 
-/* .theme-dark .search-2oPWTC .searchBar-3dMhjb {
+.theme-dark .search-2oPWTC .searchBar-3dMhjb {
 	background: transparent !important; 
 }
-  
-  .search-results-wrap .search-result .search-result-message {
+
+/*
+.search-results-wrap .search-result .search-result-message {
 	border-radius: 3px !important;
 	transition: 100ms ease !important; 
 }
@@ -1641,15 +1642,16 @@ theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1Ffu
 }
 
 
-/* Text channel top title wrapper */
+/* Text channel top title container */
 .theme-dark .container-1r6BKw {
 	background-color: #0f0f0f;
 	border-radius: 3px;
-	margin-right: 0px;
+	margin-right: 10px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	padding-left: 20px;
 	padding-right: 10px;
+	width: 99.2%;
 }
 .container-1r6BKw .children-19S4PO {
 	left: -10px;
