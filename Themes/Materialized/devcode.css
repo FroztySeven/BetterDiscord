@@ -3761,11 +3761,10 @@ div.avatar-large {
 .typing-2GQL18 {
 	position: absolute;
 	background-color: #2A2A2A!important;
-	/*bottom: 100%;*/
+	bottom: 100%;
 	top: 13px;
 	margin-left: -3px;
 	margin-right: 0;
-	width: auto;
 	height: 20px;
 	border-radius: 3px;
 	font-size: 12px;
@@ -3780,7 +3779,7 @@ div.avatar-large {
 	}
 }
 .theme-dark .typing-2GQL18 span {
-	margin-left: 0px;
+	/* margin-left: 0px; */
 }
 .base-gE7OpD .cooldownWrapper-3joyFc {
 	color: #797979!important;
@@ -3788,8 +3787,8 @@ div.avatar-large {
 	animation: opacity 1s ease;
 }
 
-.pulsingEllipsis-3YiXRF {
-	display: none;
+.base-gE7OpD .ellipsis-19qdx6 {
+    display: none;
 }
 
 .spinner-pulsing-ellipsis .spinner-item {
@@ -8952,6 +8951,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	overflow: hidden!important;
 	pointer-events: none;
 	margin: 30px 0 0 0!important;
+	z-index: 1!important;
 }
 .bf-toolbar .bf-arrow {
 	content: "";
