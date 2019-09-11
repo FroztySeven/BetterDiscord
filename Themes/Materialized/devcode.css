@@ -11,12 +11,8 @@
 */
 
 
-/* Imports */
-/* @import url(https://rawgit.com/FroztySeven/BetterDiscord/resources/Themes/Materialized/userprofile_banners.css); */
-
-
 :root {
-	--version: "Materialized Dev v1.1 — (Sep 08, 2019 Build)";
+	--version: "Materialized Dev v1.1a — (Sep. 2019)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -734,13 +730,30 @@ body,
 	Server channels 																												   
 */
 
+
+/* Server header button */
+.header-2o-2hj {
+	position: absolute;
+	width: 235px;
+	border-radius: 3px!important;
+	background-color: #0F0F0F;
+	margin-left: 0;
+}
+
 .container-PNkimc {
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: 65px;
+	margin-top: -80px;
 }
 .scrollerWrap-2lJEkd {
-	background-color: #161616 
+	background-color: #161616;
+}
+.container-PNkimc .scrollerWrap-2lJEkd {
+	margin-top: 70px;
+}
+.sidebar-2K8pFh {
+	margin-top: 10px;
+	padding-top: 80px;
 }
 
 /* Collapsed category icon */
@@ -1521,6 +1534,7 @@ body,
 	padding-right: 10px;
 }
 
+
 .titleWrapper-1l0xT9 {
 	-webkit-box-shadow: none!important;
 	box-shadow: none!important;
@@ -1651,7 +1665,7 @@ theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1Ffu
 	margin-bottom: 8px;
 	padding-left: 20px;
 	padding-right: 10px;
-	width: 99.2%;
+	width: 99.4%!important;
 }
 .container-1r6BKw .children-19S4PO {
 	left: -10px;
@@ -4042,7 +4056,7 @@ textarea.has-results .channel-textarea-inner
 	visibility: hidden;
   }
 
-.black-2bmmnj.right-KM_vfY.black-2bmmnj {
+.theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
 	background-color: #030303;
 	color: #ffffff;
 	/* width: 150px; */
@@ -4051,7 +4065,7 @@ textarea.has-results .channel-textarea-inner
 	text-align: center;
 	z-index: 1000000000000000000;
 	pointer-events: none;
-	animation: guildtooltip 200ms ease 200ms backwards;
+	animation: guildtooltip 200ms ease;
 }
 @keyframes guildtooltip {
 	0%{
@@ -5422,6 +5436,9 @@ user-select: none;
 	background: #080808!important;
 	border-radius: 3px!important;
 }
+.panels-j1Uci_ {
+	background-color: #202225;
+}
 .channels-Ie2l6A.vertical-V37hAW {
 	background-color: #232323;
     width: 255px;
@@ -6509,21 +6526,12 @@ component.member-role {
 
 
 
-/*-----------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------
 						  Server dropdown menu
 -----------------------------------------------------------------------------*/
 
-.header-2o-2hj {
-	position: absolute;
-	width: 235px;
-	border-radius: 3px!important;
-	background-color: #0F0F0F;
-	margin-left: 0px;
-	margin-top: -57px;
-}
-.header-2o-2hj:hover {
-	background-color: #313131;
-}
+
+/* 
 .name-3YKhmS {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
@@ -6597,7 +6605,7 @@ body:active .popout-bottom:not(:active) .popout-menu:not(:active){
 	  pointer-events: initial;
 	  transform:scale(1,1);
   }
-}
+} */
 
 
 
