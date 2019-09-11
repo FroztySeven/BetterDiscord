@@ -681,10 +681,7 @@ body,
 }
 
 
-/*New text channels update */
-.container-PNkimc {
-	background-color: #161616;
-}
+
 
 .contentSelectedText-3wUhMi {
 	background-color: #111111;
@@ -734,7 +731,7 @@ body,
 /* Server header button */
 .header-2o-2hj {
 	position: absolute;
-	width: 235px;
+	width: 225px;
 	border-radius: 3px!important;
 	background-color: #0F0F0F;
 	margin-left: 0;
@@ -743,17 +740,7 @@ body,
 .container-PNkimc {
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-top: -80px;
-}
-.scrollerWrap-2lJEkd {
-	background-color: #161616;
-}
-.container-PNkimc .scrollerWrap-2lJEkd {
-	margin-top: 70px;
-}
-.sidebar-2K8pFh {
-	margin-top: 10px;
-	padding-top: 80px;
+	margin-top: -50px;
 }
 
 /* Collapsed category icon */
@@ -1107,6 +1094,9 @@ body,
 .privateChannels-1nO12o .searchBar-2_Yu-C .searchBarInner-1_Tg2R input::-webkit-input-placeholder {
 	font-size: 0;
 }
+.privateChannels-1nO12o {
+	background-color: #232323;
+}
 
 
 
@@ -1414,7 +1404,7 @@ body,
 	content: "Home";
 	padding-left: 15px;
 	height: 30px;
-	width: 220px;
+	width: 205px;
 	padding-top: 18px;
 	margin-left: 10px;
 	margin-top: 8px;
@@ -8164,9 +8154,9 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	Guild wrapper / Guild list / Server list																					   
 */
 
-.spacer-29U_x8 {
+/* .spacer-29U_x8 {
 	background-color: #0F0F0F;
-}
+} */
 
 /* Guild unread indicator bar */
 .bar-30k2ka {
@@ -8174,8 +8164,9 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 }
 
 .wrapper-1Rf91z {
-	background: #0F0F0F;
-	width: 90px;
+	/* background: #0F0F0F; */
+	background-color: #232323;
+	width: 87px;
 	border-radius: 3px;
 }
 .wrapper-1Rf91z .scrollerWrap-2lJEkd {
@@ -8184,6 +8175,27 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	margin-left: 8px;
 	margin-bottom: 10px;
 	border-radius: 3px;
+	z-index: 1;
+}
+
+/* Both the whole left sidebar for DM and servers */
+.sidebar-2K8pFh {
+	margin-left: 15px;
+	background-color: #232323;
+}
+.container-PNkimc  {
+	margin-top: 7px;
+}
+
+
+.scrollerWrap-2lJEkd {
+	background-color: #161616;
+}
+.container-PNkimc .scrollerWrap-2lJEkd {
+	margin-top: 58px;
+}
+.container-PNkimc {
+	background-color: #232323;
 }
 
 .wrapper-1Rf91z .scroller-wrap {
