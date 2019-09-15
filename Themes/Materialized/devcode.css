@@ -3300,17 +3300,18 @@ div.avatar-large {
 .theme-dark .inner-zqa7da {
 	background: #121212;
 	margin-top: 18px;
-	margin-left: -5px;
+	margin-left: -3px;
 	margin-right: 10px;
 	padding-bottom: 5px;
+	border-radius: 3px;
 }
 
-.theme-dark .chat form {
+/* .theme-dark .chat form {
 	background: #232323;
 	border-top: none;
 	box-shadow: none;
 	border-radius: 3px;
-}
+} */
 
 /* .chat form {
 	-ms-flex-negative: 0;
@@ -3702,7 +3703,7 @@ div.avatar-large {
 
 /* Attachment button */
 .attachButtonDivider-3Glu60 {
-   margin-left: 25px;
+   margin-left: 35px;
    visibility: hidden;
 }
 .theme-dark .attachButtonPlus-rUdX-B {
@@ -3711,8 +3712,8 @@ div.avatar-large {
 .attachButton-1UjEWA {
 	position: absolute;
 	margin-top: 0px;
-	top: 8px;
-	left: 5px;
+	top: 10px;
+	left: 13px;
 	padding: 4px;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAED0lEQVRYCe2YW2jOYRzH9y7DyFIrNWRau7BJubCVKxciNTlcUGorKbtxw65cuMCc30nIIRckF4QcyoWcbrgQLXNIi5RTjMlSMrbx+vzmffTb733+7/7v3kPSf30/e57nd3ie7//x38sUFUVf0Q1ENxDdQHQDWdxALIverFsTicRENpkGk+ArvI7FYu8Y/11hugTWwC3oB6sXBA7C1Lw/BYfUwuiwB1G7EMQgw7D6RsVGyM9bwsb10AMXoWS4h6CmBQYgU52iIfQlDedjMM+GzjzTQZ3n+6jBpOcbuS0QpE4SN+AufAOf9nu2HVmI3euhB6wafTtStBWs5N0/QrBa97AuhbXwEayW6toRzdkxyHzctyH1rWAlDz/PV+9iNFQmEonnoPWYRbGryXikOVPz2+ixEvN1YQ6ncTb0g9aiML0pNeyQqfnt9FiFNu8MsMFx0DrkcqFHuutADmcYoqDXZseQqj8L6a8LfWiykNYFoPUwmQo30DkdusEqyPxOW8h6RObFIb3loNUt8VDQNR46wCru24CiXWAVaJ7C1ZD28538WNDq9Z3tjdF1DKzafMUU7QardObbksUXGAP/EiRXDVqvfOenxOiohQHQOs0iZouJ7QGrMOZdzzkmo+y+sia+DrSuSXxY6JCbYfirx8xKbSOxbM2zRUIedoZn7xKSz0Brg61LWVNdDvb2F9tCanJl3vvpxP5HQauXxRTrI2VNUSNoPbBFJJvBSm4yyIx753VPuvq4LkzO91kf3jXFp0Brc5H6IlEGn0ErnZlcmO/ksDJlI3hK4R3QGvLvFhKrQOsLi3zevFxObbBjk8GM/YWjSpeQt3+8rTrv5tTl4ubFvPdy3DkpIwd/Aq1yXUTiAGit13mZk2wDq0AzFNpLITT46ZSZ+eThT6VbUSNxB/EW0GpnUSp5xhjsBSsxXy81FgpzZ142Z8OboDXkI5REDfwCrRcszkI7WBXOfPIBDhgHhyWuIX8Gwqiw5sUkrhaAVheL8ZJzsJ4IjyCduknWux49Eo+DlTxs5u+83ljm7DoaZDOGv9okOQ2ZcSA/rN8ZteT1ukygUte7OfH8mVeHbOYgra8sZru8HomXQQOsgOVQofN6Ti4OVnJZ2d+8OWgCp3wArZcsAs3pft+c3j1glXvz7nBOagKrtwTmupowI/Vj4EQi9St/5p0xzvTd2g/iR8D7jrteGalpgA6wypn5lF9Q5GAHpxYzPw0rwWqAwG24Ao/gDcgvJpMZ58EymAlWXQSW8L/Q9xkLIx6kGfogW91jg4rCuDancPB8eAIj0U+aTsIEs21hlxgohiYI+yDyP2uXqJ+VL6dpfwbSHYqpKvINMAcqQd79Psb3ID8P1xmv8q73MEaKbiC6gegG/tMb+A1O4AbH1lAxvgAAAABJRU5ErkJggg==);
 	filter: brightness(0.40);
@@ -8961,7 +8962,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	opacity: 1;
 	overflow: hidden!important;
 	pointer-events: none;
-	margin: 30px 0 0 0!important;
+	margin: 28px 3px 0 0!important;
 	z-index: 1!important;
 }
 .bf-toolbar .bf-arrow {
