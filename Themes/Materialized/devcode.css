@@ -188,6 +188,9 @@
 
 
 
+
+
+
 h2
 
 
@@ -731,10 +734,18 @@ body,
 /* Server header button */
 .header-2o-2hj {
 	position: absolute;
-	width: 225px;
+	width: 220px!important;
 	border-radius: 3px!important;
 	background-color: #0F0F0F;
-	margin-left: 0;
+}
+.name-3YKhmS {
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .container-PNkimc {
