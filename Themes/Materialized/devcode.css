@@ -9077,13 +9077,16 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	background-size: 15px!important;
 	color: hsla(0, 0%, 100%, 0.4);
 	letter-spacing: 0;
-	font-weight: 500;
+	font-size: 12px!important;
+	font-weight: 500!important;
 	text-align: left!important;
 	text-transform: uppercase;
 	display: block;
 	width: 80%!important;
 	padding: 10px 20px!important;
 	margin-left: 15px!important;
+	top: 10px;
+	border: none;
 	/* margin-bottom: -20px; */
 }
 
