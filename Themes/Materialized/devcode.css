@@ -12,7 +12,7 @@
 
 
 :root {
-	--version: "Materialized Dev v1.1a — (Sep. 2019)";
+	--version: "Materialized Dev v1.1a — (Nov. 2019)";
 	/*--accent-color: #7289DA; - default */
 	--accent-color: #359eff;
 	--notification-color: #e42323;
@@ -7655,13 +7655,15 @@ form.modal-content.form.alert.has-icon {
 .contextMenu-HLZMGh {
 	background: #242424!important;
 	border: none;
-	border-radius: 3px;
+	border-radius: 0px;
 	padding: 0px 2px;
 	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2) !important;
 	z-index: 9999999!important;
 	transform-origin: top !important;
 	animation: opacity 50ms ease, context_open 90ms cubic-bezier(.5, 0, 0, 1);
+	/* animation: opacity 100ms ease, open-context-menu 300ms cubic-bezier(0.4,0,0.2,1)!important; */
 	max-width: 430px;
+	max-height: calc(100vh - 155px);
 }
 @keyframes context_open {
 	0% {
@@ -7670,36 +7672,41 @@ form.modal-content.form.alert.has-icon {
 }
 
   
-.context-menu .item:first-of-type {
+/* .context-menu .item:first-of-type {
 	border-radius: 2px 2px 0 0;
 }
 .context-menu .item:last-of-type {
 	border-radius: 0 0 2px 2px;
-}
+} */
 
 
 /* Submenu */
-.contextMenu-HLZMGh .contextMenu-HLZMGh {
+/* .contextMenu-HLZMGh .contextMenu-HLZMGh {
 	margin-left: 172px;
 	border-radius: 0px!important;
+} */
+.subMenuContext-2n_9YM {
+	position: relative;
+	animation: none;
 }
 /* Submenu invert */
-.contextMenu-HLZMGh.invertChildX-2fq7sY .contextMenu-HLZMGh {
+/* .contextMenu-HLZMGh.invertChildX-2fq7sY .contextMenu-HLZMGh {
 	border-radius: 3px!important;
 	margin-left: -173px;
-}
-.contextMenu-HLZMGh .contextMenu-HLZMGh .scroller-2PSBSf {
+} */
+/* .contextMenu-HLZMGh .contextMenu-HLZMGh .scroller-2PSBSf {
 	background: #303030!important;
 	padding-right: 5px;
-}
+} */
 
 
-.theme-dark .itemSubMenu-1vN_Yn {
+/* .theme-dark .itemSubMenu-1vN_Yn {
 	transform: none!important;
-}
-.item-1Yvehc .itemToggle-S7XGOQ {
+} */
+/* .item-1Yvehc .itemToggle-S7XGOQ {
 	z-index: 4;
-}
+} */
+
   /* Submenu arrow */
 .contextMenu-HLZMGh .itemSubMenu-1vN_Yn {
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABmJLR0QA/wD/AP+gvaeTAAACDElEQVRYCe2Zu0oDURRFo+hHifkEO19ljI/CJ4oa31qIIIqIiAiCYmth4YfY2KSX/ICIIGgyriMKKQbZAzI5JyTsxUjYzpx1rzEJUyh0Hm2+AkmSFOEJarAQWheBAXiH5hyHlMIgTYanv3MUSoqR++EN/spGGCksHkHJWggpTKqgpuJeCpMhqIOalQhSI9h8gJqdCFKlJEmy7NR2BKlyRqmtCFKTSDVAzWYEqQXV5qfn/32KQRchS9Yj7NRyFiO6IaR2GTRL/H+iwGYf1DQo+v/qwZAHoMak5iO8pg5VI3omNedaiiG74BzUmNRsBKkL1YieSc1EkLpkWDVhpK5UI3omNe19p3oY9B7UfFIc9C7Vy5APoOZZFepWi//ca3C+V1DTpRZz77El3XALavz+yWFgr587jmrsK/5g7quuXBCDrDtjMkPKuXPv/MjccFTjXuZaNaFnMsO5r7pyQYazz3FZ3khNZkQ5d0s6CJ2BGpMZbcmgykWxOAU19q/ZtcyJakKvDiVlkVrSYbhjUGMyYwWvDyz2Ev1hMmWvLgU8tkGNyYx7ltlUTei5l1lnSDUmM+F5Z1ZVE3omM+lZZpYhG6DEelOeZdrrliRbUgU1Fbc78zsYJo+gZO33d1wfMemHN/gr/m9oNa8yJn3wAmlZbO6G+RmTNKmlMAJpgyJVhCeogf97PGkSnedyXIEv6wyaaGBW/mIAAAAASUVORK5CYII=);
@@ -7722,11 +7729,21 @@ form.modal-content.form.alert.has-icon {
 	background-size: 15px;
 	transition: 50ms ease!important;
 }
+.caret-UIZBlm {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	display: none;
+}
 
 /* Menu items */ 
 .contextMenu-HLZMGh .item-1Yvehc {
 	color: #ffffff!important;
-	border-radius: 3px!important;
+	border-radius: 0!important;
 	cursor: default;
 	border-left: 0px solid #242424;
 	margin: 0;
@@ -7735,9 +7752,9 @@ form.modal-content.form.alert.has-icon {
 }
 .contextMenu-HLZMGh .item-1Yvehc:hover {
 	background-color: #3b3b3b!important;
+	border-radius: 0!important;
 	color: rgba(255, 255, 255, .8);
-	border-radius: 3px!important;
-	border-left: 4px solid #ffffff;
+	border-left: 3px solid #ffffff;
 	padding-right: 12px;
 	transition: 100ms ease!important;
 	animation: contextMenuItem_tilt 300ms ease;
@@ -7747,15 +7764,14 @@ form.modal-content.form.alert.has-icon {
 		margin-left: 0px;
 	}
 	50% {
-		margin-left: 2px;
+		margin-left: 1px;
 	}
 	100% {
-		margin-left: 00px;
+		margin-left: 0px;
 	}
 }
 .contextMenu-HLZMGh .item-1Yvehc:active {
 	background-color: #5c5c5c!important;
-	border-radius: 3px!important;
 	opacity: 1 !important;
 	/* transform: scale(1.05); */
 	z-index: 4;
@@ -8201,7 +8217,7 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 
 .wrapper-1Rf91z {
 	/* background: #0F0F0F; */
-	background-color: #232323;
+	background-color: #232323!;
 	width: 87px;
 	border-radius: 3px;
 }
@@ -8212,6 +8228,9 @@ div[style^="border-radius: 2px; background-color: rgba(114, 137, 218, 0"] {
 	margin-bottom: 10px;
 	border-radius: 3px;
 	z-index: 1;
+}
+.scroller-2TZvBN {
+	background-color: #080808!important;
 }
 
 /* Both the whole left sidebar for DM and servers */
